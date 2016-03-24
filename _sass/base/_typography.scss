@@ -1,0 +1,46 @@
+body,
+html {
+  font-family: $primary-font;
+  color: $primary-font-colour !important;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: $primary-colour !important;
+  span {
+    color: $warm-grey !important;
+  }
+}
+
+h4 {
+  font-size: 1.2em;
+  line-height: 1;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: $red;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p {
+  color: $primary-font-colour !important;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+a {
+  color: $primary-colour;
+  text-decoration: none !important;
+  &:hover,
+  &:focus {
+    color: darken($primary-colour, 20);
+    text-decoration: none !important;
+  }
+}

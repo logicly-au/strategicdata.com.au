@@ -1,0 +1,20 @@
+/* External stylesheets */
+
+/* Helpers needed for other files */
+@import "helpers/variables";
+@import "helpers/mixins";
+
+/* Base styling */
+@import "base/typography";
+
+/* Theme */
+@import "theme/stratdat";
+
+/* Includes */
+@import "includes/footer";
+@import "includes/header";
+@import "includes/navbar";
+@import "includes/sidebar";
+
+/* Individual pages */
+@import "pages/home";
