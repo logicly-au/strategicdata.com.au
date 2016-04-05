@@ -1,0 +1,38 @@
+#content {
+  padding: 0;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  @include tablet {
+    width: 750px;
+  }
+  @include desktop {
+    width: 970px;
+  }
+  @include large {
+    width: 1170px;
+  }
+}
+/*
+.row {
+  width: 100%;
+  max-width: 1170px;
+}*/
+
+.title-divider {
+  color: $primary-colour !important;
+  text-align: left;
+}
+
+.btn-primary {
+  background-color: $primary-colour !important;
+  color: $white !important;
+  border-color: $dark-blue;
+  font-weight: bold;
+  &:hover,
+  &:focus {
+    background-color: $dark-blue;
+  }
+}

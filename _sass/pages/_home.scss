@@ -1,0 +1,58 @@
+.home_page {
+  #content .container {
+    min-width: 100%;
+  }
+  .block.features {
+    margin-bottom: 1em;
+    hr {
+      border-top: 2px solid $light-grey;
+    }
+    .title {
+      font-size: 16px;
+      margin: .5em 0;
+      text-transform: uppercase;
+      line-height: 1;
+      font-weight: bold;
+    }
+  }
+  #slider {
+    .swiper-slide {
+      float: none;
+      height: 500px;
+    }
+    .slider-caption  {
+      margin-top: 100px;
+      h2, p {
+        color: $white !important;
+        text-align: center;
+      }
+    }
+  }
+
+  .home_container {
+    padding: 0 15px;
+    margin: 0 auto;
+    @include tablet {
+      width: 750px;
+    }
+    @include desktop {
+      width: 970px;
+    }
+    @include large {
+      width: 1170px;
+    }
+  }
+
+  .promo {
+    background-color: #f5f5f5;
+    .container {
+      max-width: 750px;
+      width: 75%;
+      margin: 0 auto;
+      padding: 0 15px;
+      h3 {
+        display: inline-block;
+      }
+    }
+  }
+}

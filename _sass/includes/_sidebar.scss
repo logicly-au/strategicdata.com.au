@@ -1,0 +1,29 @@
+.sidebar {
+  ul.nav-list {
+    li {
+      a {
+        color: $red-grey;
+        &:hover i,
+        &:focus i {
+          color: $primary-colour;
+        }
+      }
+      &.active > a {
+        color: $primary-colour;
+        border-left: 4px solid $primary-colour;
+        &:hover,
+        &:focus {
+          color: $primary-colour;
+          border-left: 4px solid $primary-colour;
+        }
+        &:hover i,
+        &:focus i {
+          color: $primary-colour;
+        }
+      }
+      &.active > a i {
+        color: $primary-colour;
+      }
+    }
+  }
+}
