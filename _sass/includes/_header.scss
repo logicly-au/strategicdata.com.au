@@ -1,0 +1,25 @@
+/*.header-upper {
+  background: $primary-colour;
+  position: relative;
+  padding: 5px 0;
+}
+
+.header {
+  border-bottom: 1px solid $primary-colour;
+  padding: 20px 0 15px 0;
+  .navbar {
+    .logo-box {
+      margin-bottom: 20px;
+    }
+  }
+}*/
+
+#header {
+  #primary-menu-trigger {
+    color: $primary-colour;
+    opacity: 0;
+    i::before {
+      color: $primary-colour;
+    }
+  }
+}

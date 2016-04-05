@@ -1,0 +1,7 @@
+#footer {
+  background-color: $light-grey;
+  border-top: 2px solid $primary-colour;
+  #toplink a i::before {
+    color: $primary-colour;
+  }
+}
