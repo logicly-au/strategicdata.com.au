@@ -8,5 +8,5 @@ eval "$(ssh-agent -s)" #start the ssh agent
 chmod 600 .travis/deploy_key
 ssh-add .travis/deploy_key
 git config --global push.default simple
-git remote add gh-pages git@github.com:strategicdata/websurvey.com.au.git
+git remote add gh-pages git@github.com:strategicdata/strategicdata.com.au.git
 git push gh-pages HEAD:gh-pages
