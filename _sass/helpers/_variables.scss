@@ -1,16 +1,21 @@
 /* Shades */
 $white:             #FFFFFF;
 $mostly-white:      #F8F8F8;
+$very-light-grey:   #EEEEEE;
+$light-grey:        #CCCCCC;
 $grey:              #999999;
+$red-grey: rgba(27,27,27,0.7);
 $warm-grey:         #A29A84;
 $very-dark-grey:    #333333;
 $mostly-black:      #242424;
 
 /* Colours */
-$dark-blue:         #193F70;
+$very-dark-blue:    #193F70;
+$dark-blue:         #005480;
 $aqua:              #2EAEB7;
 $light-blue:        #8BABBB;
 $red:               #B11F24;
+$ws-red:            #98002E;
 $yellow:            #FFBD35;
 
 /* Typography */
@@ -20,4 +25,4 @@ $open-sans-family: "Open Sans",Arial,serif;
 $primary-font:          $open-sans-family;
 $primary-font-colour:   $very-dark-grey;
 $primary-colour:        $dark-blue;
-$secondary-colour:      $grey;       
+$secondary-colour:      $grey;
