@@ -1,8 +1,9 @@
 body,
 html {
   font-family: $primary-font;
-  color: $primary-font-colour !important;
+  color: $primary-font-colour;
   font-size: 14px;
+  line-height: 1.42857143;
 }
 
 h2 {
@@ -10,18 +11,22 @@ h2 {
   font-weight: 600;
   line-height: 1.1;
   text-transform: uppercase;
-  color: $primary-colour !important;
   span {
-    color: $warm-grey !important;
+    color: $warm-grey;
   }
 }
 
+h3 {
+  color: $primary-font-colour;
+  font-size: 24.5px;
+}
+
 h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: bold;
-  color: $red;
+  color: $ws-red;
 }
 
 h5 {
@@ -30,9 +35,13 @@ h5 {
 }
 
 p {
-  color: $primary-font-colour !important;
+  color: $primary-font-colour;
   font-size: 1em;
   margin-bottom: 15px;
+}
+
+ul, ol {
+  color: $primary-font-colour;
 }
 
 a {
@@ -43,4 +52,8 @@ a {
     color: darken($primary-colour, 20);
     text-decoration: none !important;
   }
+}
+
+h2, strong {
+  color: $red-grey;
 }
