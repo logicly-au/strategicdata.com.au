@@ -1,0 +1,36 @@
+<!-- sidebar -->
+<div class="col-md-3 sidebar">
+ <!-- Sections Menu-->
+  <div class="section-menu">
+    <ul class="nav nav-list">
+      <li {% if include.param == "cases" %} class="active" {% endif %}>
+        <a href="/cases/" class="first">
+          Online data validation
+          <small>Client: <strong>The Australian Mental Health Outcomes and Classification Network (AMHOCN)</strong></small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+      <li {% if include.param == "performance" %} class="active" {% endif %}>
+        <a href="/cases/performance.html" class="first">
+          Performance management system creation
+          <small>Client: National Australia Bank (NAB)</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+      <li {% if include.param == "reports" %} class="active" {% endif %}>
+        <a href="/cases/reports.html" class="first">
+          Report generation from multiple data sources
+          <small>Client: Government of Australia</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+     <li {% if include.param == "monitoring" %} class="active" {% endif %}>
+        <a href="/cases/monitoring.html" class="first">
+          Program monitoring and evaluation system
+          <small>Clients: Federal Department of Health; University of Melbourne</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

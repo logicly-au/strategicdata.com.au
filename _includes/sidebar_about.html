@@ -1,0 +1,43 @@
+<!-- sidebar -->
+<div class="col-md-3 sidebar">
+  <!-- Sections Menu-->
+  <div class="section-menu">
+    <ul class="nav nav-list">
+      <li {% if include.param == "about" %} class="active" {% endif %}>
+        <a href="/about/" class="first">
+          People and history
+          <small>More about our people and history</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+      <li {% if include.param == "security" %} class="active" {% endif %}>
+        <a href="/about/security.html" class="first">
+          Security, privacy &amp; data protection
+          <small>Commitment to security and privacy</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+      <li {% if include.param == "itcommunity" %} class="active" {% endif %}>
+        <a href="/about/itcommunity.html" class="first">
+          Active in the IT community
+          <small>Our IT community activity</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+     <li {% if include.param == "sustainability" %} class="active" {% endif %}>
+        <a href="/about/sustainability.html" class="first">
+          Sustainability focus
+          <small>Our sustainability efforts</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+      <li {% if include.param == "employment" %} class="active" {% endif %}>
+        <a href="/about/employment.html" class="first">
+          Employment
+          <small>Employment opportunities at Strategic Data</small>
+          <i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
