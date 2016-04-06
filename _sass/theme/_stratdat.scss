@@ -15,11 +15,6 @@
     width: 1170px;
   }
 }
-/*
-.row {
-  width: 100%;
-  max-width: 1170px;
-}*/
 
 .title-divider {
   color: $primary-colour !important;
@@ -36,4 +31,8 @@
   &:focus {
     background-color: $dark-blue;
   }
+}
+
+ul {
+  padding-left: 40px;
 }
