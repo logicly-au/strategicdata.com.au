@@ -19,10 +19,12 @@ $ws-red:            #98002E;
 $yellow:            #FFBD35;
 
 /* Typography */
-$open-sans-family: "Open Sans",Arial,serif;
+$open-sans-family:  "Open Sans",Arial,serif;
+$raleway-family:    'Raleway', sans-serif;
 
 /* Default Styling */
 $primary-font:          $open-sans-family;
+$header-font:           $raleway-family;
 $primary-font-colour:   $very-dark-grey;
 $primary-colour:        $dark-blue;
 $secondary-colour:      $grey;

@@ -21,7 +21,7 @@ $responsive-width:    768px;
 }
 
 @mixin responsive {
-  @media only screen and (max-width: #{$responsive-width}), (min-device-width: 250px) and (max-device-width: #{$responsive-width}) {
+  @media (max-width: #{$desktop-width}), (min-device-width: 250px) and (max-device-width: #{$desktop-width}) {
     @content;
   }
 }
@@ -42,4 +42,18 @@ $responsive-width:    768px;
   -webkit-transform: rotate($angle + deg);
      -moz-transform: rotate($angle + deg);
           transform: rotate($angle + deg);
+}
+
+@mixin transitionHeight($time) {
+  -webkit-transition: height $time + s ease;
+     -moz-transition: height $time + s ease;
+       -o-transition: height $time + s ease;
+          transition: height $time + s ease;
+}
+
+@mixin transitionOpacity($time) {
+  -webkit-transition: opacity $time + s ease;
+     -moz-transition: opacity $time + s ease;
+       -o-transition: opacity $time + s ease;
+          transition: opacity $time + s ease;
 }
