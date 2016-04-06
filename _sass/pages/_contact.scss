@@ -1,6 +1,11 @@
-.contact-page{
+.contact-page {
   .col_one_fourth {
-    margin-right: 0
+    margin-right: 0;
+    display: block;
+    position: relative;
+    float: left;
+    margin-bottom: 30px;
+    width: 22%;
   }
 
   .sd-map {
