@@ -1,7 +1,50 @@
 #footer {
-  background-color: $light-grey;
+  background-color: $footer-background;
   border-top: 2px solid $primary-colour;
-  #toplink a i::before {
+  min-height: 200px;
+  padding: 30px 0;
+  color: $primary-font-colour;
+  h3 {
+    margin-bottom: 1em;
+    color: $primary-font-colour;
+    font-size: 1.2em;
+    line-height: 1;
+    font-weight: 500;
+  }
+  a {
+    font-weight: bold;
     color: $primary-colour;
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+  .contact-block,
+  .newsletter {
+    margin-bottom: 2em;
+    i {
+      padding-right: 0.5em;
+    }
+  }
+  #toplink {
+    margin-bottom: -25px;
+    text-align: center;
+    a i::before {
+      color: $primary-colour;
+    }
+  }
+  .footer-menu {
+    margin: 1em 0;
+    float: left;
+    @include desktop {
+      float: right;
+      margin: .5em 0 0 .2em;
+    }
+    li {
+      padding: 0;
+      @include desktop {
+        padding: 0 3px;
+      }
+    }
   }
 }
