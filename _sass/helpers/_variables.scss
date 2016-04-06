@@ -1,7 +1,7 @@
 /* Shades */
 $white:             #FFFFFF;
 $mostly-white:      #F8F8F8;
-$very-light-grey:   #EEEEEE;
+$very-light-grey:   #E6E6E6;
 $light-grey:        #CCCCCC;
 $grey:              #999999;
 $red-grey: rgba(27,27,27,0.7);
@@ -26,3 +26,8 @@ $primary-font:          $open-sans-family;
 $primary-font-colour:   $very-dark-grey;
 $primary-colour:        $dark-blue;
 $secondary-colour:      $grey;
+$body-background:       $white;
+$border-grey:           $very-light-grey;
+$sidebar-font:          $red-grey;
+$sidebar-bg:            $mostly-white;
+$sidebar-bg-hover:      $very-light-grey;

@@ -25,3 +25,21 @@ $responsive-width:    768px;
     @content;
   }
 }
+
+@mixin roundedCorners($size) {
+  -webkit-border-radius: $size + px;
+     -moz-border-radius: $size + px;
+          border-radius: $size + px;
+}
+
+@mixin boxShadow($size, $colour) {
+  -webkit-box-shadow: $size + px $size + px $size + px $colour;
+     -moz-box-shadow: $size + px $size + px $size + px $colour;
+          box-shadow: $size + px $size + px $size + px $colour;
+}
+
+@mixin rotating($angle){
+  -webkit-transform: rotate($angle + deg);
+     -moz-transform: rotate($angle + deg);
+          transform: rotate($angle + deg);
+}
