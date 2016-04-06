@@ -14,35 +14,6 @@
       width: 100%;
       padding: 0 30px;
       position: relative;
-
-      /* Touch screen menu */
-      #primary-menu-trigger {
-        color: $primary-colour;
-        font-size: 1.25em;
-        position: absolute;
-        top: 50%;
-        margin-top: -25px;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        text-align: center;
-        @include transitionOpacity(0.3);
-        i::before {
-          color: $primary-colour;
-        }
-        @include tablet {
-          opacity: 1;
-          pointer-events: auto;
-          top: 25px;
-          margin-top: 0;
-          left: 0;
-          z-index: 1;
-        }
-        @include desktop {
-          opacity: 0;
-        }
-      }
-
       #logo {
         padding-right: 30px;
         margin-right: 30px;
@@ -71,47 +42,6 @@
             @include transitionOpacity(0.3);
             max-width: 100%;
             display: inline-block;
-          }
-        }
-      }
-
-      #primary-menu {
-        height: 100px;
-        float: right;
-        @include transitionHeight(0.4);
-        @include transitionOpacity(0.3);
-        ul {
-          float: left;
-          padding: 0 15px;
-          border-right: 1px solid $border-grey;
-          list-style: none;
-          li {
-            margin-left: 2px;
-            position: relative;
-            float: left;
-            &:first-child {
-              margin-left: 0;
-            }
-            a {
-              display: block;
-              height: 100px;
-              line-height: 100px;
-              padding: 0 15px;
-              color: $primary-font-colour;
-              font-weight: bold;
-              font-style: 13px;
-              letter-spacing: 1px;
-              text-transform: uppercase;
-              font-family: $header-font;
-              @include transitionHeight(0.4);
-              &:hover,
-              &:focus {
-                color: $primary-colour;
-              }
-            }
-          }
-          li.current a {
-            color: $primary-colour;
           }
         }
       }

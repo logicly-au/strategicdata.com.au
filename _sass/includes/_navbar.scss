@@ -1,5 +1,122 @@
-.navbar-nav {
-  .home-link a i::before {
+/* Touch screen menu */
+#primary-menu-trigger {
+  color: $primary-colour;
+  font-size: 1.25em;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  @include transitionOpacity(0.3);
+  i::before {
     color: $primary-colour;
+  }
+  @include tablet {
+    opacity: 1;
+    pointer-events: auto;
+    top: 25px;
+    margin-top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  @include desktop {
+    opacity: 0;
+  }
+}
+
+nav#primary-menu {
+  height: 100px;
+  float: right;
+  @include transitionHeight(0.4);
+  @include transitionOpacity(0.3);
+  ul {
+    float: left;
+    padding: 0 15px;
+    margin-right: 15px;
+    border-right: 1px solid $border-grey;
+    list-style: none;
+    li {
+      margin-left: 2px;
+      position: relative;
+      float: left;
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        display: block;
+        height: 100px;
+        line-height: 100px;
+        padding: 0 15px;
+        color: $primary-font-colour;
+        font-weight: bold;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: $header-font;
+        @include transitionHeight(0.4);
+        &:hover,
+        &:focus {
+          color: $primary-colour;
+        }
+      }
+    }
+    li.current a {
+      color: $primary-colour;
+    }
+  }
+  #top-search {
+    float: right;
+    margin: 40px 0 40px 15px;
+    @include transitionHeight(0.4);
+    @include transitionOpacity(0.3);
+    a {
+      z-index: 11;
+      position: relative;
+      width: 14px;
+      height: 14px;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: $primary-font-colour;
+      i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include transitionOpacity(0.3);
+      }
+      i.icon-line-cross {
+        opacity: 0;
+      }
+    }
+    form {
+      opacity: 0;
+      z-index: -2;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding: 0 15px;
+      margin: 0;
+      top: 0;
+      left: 0;
+      @include transitionOpacity(0.3);
+      input {
+        box-shadow: none;
+        pointer-events: none;
+        border-radius: 0;
+        border: 0;
+        outline: 0;
+        font-size: 32px;
+        padding: 10px 80px 10px 0;
+        height: 100%;
+        background-color: transparent;
+        color: $primary-font-colour;
+        font-weight: 700;
+        margin-top: 0;
+        font-family: $header-font;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
