@@ -18,8 +18,8 @@
     pointer-events: auto;
     top: 25px;
     margin-top: 0;
-    left: 0;
     z-index: 1;
+    cursor: pointer;
   }
   @include desktop {
     opacity: 0;
@@ -95,6 +95,9 @@ nav#primary-menu {
       height: auto !important;
     }
   }
+  ul.show {
+    display: inherit;
+  }
   #top-search {
     float: right;
     margin: 40px 0 40px 15px;
@@ -111,7 +114,9 @@ nav#primary-menu {
       font-size: 14px;
       line-height: 20px;
       text-align: center;
-      color: $primary-font-colour;
+      /*color: $primary-font-colour; hiding unil functional */
+      color: $secondary-font-colour;
+      cursor: default;
       @include responsive {
         position: absolute;
         top: 0;

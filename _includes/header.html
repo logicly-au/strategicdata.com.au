@@ -1,9 +1,9 @@
-<!-- Header
-============================================= -->
 <header id="header" class="full-header">
   <div id="header-wrap">
     <div class="container clearfix">
-      <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+      <div id="primary-menu-trigger">
+        <i class="icon-reorder"></i>
+      </div>
 
       <div id="logo">
         <a href="/" class="standard-logo">
@@ -46,3 +46,18 @@
     </div>
   </div>
 </header>
+
+<script>
+  $(function() {
+    $("#primary-menu-trigger").on('click', trigger_mobile_menu);
+  });
+
+  trigger_mobile_menu = function() {
+    var $menu = $("#primary-menu ul");
+    if ( $menu.hasClass("show") ) {
+      $menu.removeClass("show");
+    } else {
+      $menu.addClass("show");
+    }
+  }
+</script>
