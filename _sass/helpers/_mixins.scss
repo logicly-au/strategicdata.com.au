@@ -64,3 +64,24 @@ $mobile-width:        600px;
        -o-transition: opacity $time + s ease;
           transition: opacity $time + s ease;
 }
+
+@mixin transitionTransform($time) {
+  -webkit-transition: -webkit-transform $time + s, opacity $time + s;
+     -moz-transition: -moz-transform $time + s, opacity $time + s;
+       -o-transition: -o-transform $time + s, opacity $time + s;
+          transition: transform $time + s, opacity $time + s;
+}
+
+@mixin scale($ratio) {
+  -webkit-transform: scale(ratio);
+     -moz-transform: scale(ratio);
+      -ms-transform: scale(ratio);
+          transform: scale(ratio);
+}
+
+@mixin contentBox {
+            content: '';
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}

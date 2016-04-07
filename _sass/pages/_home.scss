@@ -21,8 +21,8 @@
     overflow: hidden;
     transform: translate3d(0px, 0, 0);
     -webkit-transform: translate3d(0px, 0, 0);
-    @include responsive {
-      height: 100%;
+    @include mobile {
+      max-height: 175px;
     }
     @include desktop {
       height: 450px;
@@ -36,11 +36,11 @@
       max-width: 800px;
       margin: 100px auto 0;
       z-index: 20;
+      @include mobile {
+        margin-top: 10px;
+      }
       @include responsive {
         margin-top: 50px;
-      }
-      @include mobile {
-        margin-top: 0;
       }
       h2 {
         font-size: 64px;
