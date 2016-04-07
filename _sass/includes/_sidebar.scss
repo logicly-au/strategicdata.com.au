@@ -3,6 +3,10 @@
   @include desktop {
     margin-top: 1.5em;
   }
+  @include responsive {
+    width: 100%;
+    z-index: 5;
+  }
   .section-menu ul.nav-list {
     padding: 2em 0;
     margin-left: 0;

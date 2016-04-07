@@ -6,6 +6,9 @@
     float: left;
     margin-bottom: 30px;
     width: 22%;
+    @include mobile {
+      width: 100%;
+    }
   }
 
   .sd-map {

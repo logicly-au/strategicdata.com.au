@@ -1,6 +1,7 @@
 $large-screen:       1200px;
-$desktop-width:       992px;
+$desktop-width:      1020px;
 $responsive-width:    768px;
+$mobile-width:        600px;
 
 @mixin large {
   @media (min-width: #{$large-screen}) {
@@ -22,6 +23,12 @@ $responsive-width:    768px;
 
 @mixin responsive {
   @media (max-width: #{$desktop-width}), (min-device-width: 250px) and (max-device-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
     @content;
   }
 }

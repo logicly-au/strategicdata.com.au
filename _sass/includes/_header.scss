@@ -16,7 +16,7 @@
       position: relative;
       #logo {
         padding-right: 30px;
-        margin-right: 30px;
+        margin-right: 0;
         border-right: 1px solid $border-grey;
         position: relative;
         float: left;
@@ -28,6 +28,7 @@
           height: 100px;
           margin: 0 auto 0;
           text-align: center;
+          border-right: 0 !important;
         }
         a {
           opacity: 1;

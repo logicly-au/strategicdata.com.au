@@ -27,7 +27,7 @@
 
 .btn-primary {
   background-color: $primary-colour !important;
-  color: $white !important;
+  color: $secondary-font-colour;
   border-color: $dark-blue;
   font-weight: bold;
   &:hover,
@@ -61,7 +61,7 @@ ul {
       position: relative;
       width: 100%;
       height: 100%;
-      color: $white;
+      color: $secondary-font-colour;
     }
     i {
       line-height: 94px;

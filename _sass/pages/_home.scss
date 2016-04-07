@@ -1,4 +1,143 @@
 .home_page {
+  /* Widths for this page only */
+  .home_container {
+    padding: 0 15px;
+    margin: 0 auto;
+    @include tablet {
+      width: 750px;
+    }
+    @include desktop {
+      width: 970px;
+    }
+    @include large {
+      width: 1170px;
+    }
+  }
+
+  /* Video Panel */
+  #home-video {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    transform: translate3d(0px, 0, 0);
+    -webkit-transform: translate3d(0px, 0, 0);
+    @include responsive {
+      height: 100%;
+    }
+    .video-caption  {
+      text-align: center;
+      position: relative;
+      max-width: 800px;
+      margin: 100px auto 0;
+      z-index: 20;
+      @include responsive {
+        margin-top: 50px;
+      }
+      @include mobile {
+        margin-top: 0;
+      }
+      h2 {
+        font-size: 64px;
+        color: $secondary-font-colour;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        line-height: 1;
+        @include responsive {
+          font-size: 36px;
+        }
+        @include mobile {
+          font-size: 20px;
+        }
+      }
+      p {
+        font-size: 24px;
+        color: $secondary-font-colour;
+        margin-bottom: 10px;
+        @include responsive {
+          font-size: 18px;
+          margin-bottom: 50px;
+        }
+        @include mobile {
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+    }
+    .video-wrap {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      video {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+      }
+      .video-overlay {
+        background-color: rgba(0,0,0,0.2);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 5;
+      }
+    }
+  }
+
+  .promo {
+    background-color: $promo-bg;
+    padding: 40px 0;
+    position: relative;
+    margin-bottom: 50px;
+    @include responsive {
+      padding: 20px 0;
+    }
+    .home_container {
+      margin: 0 auto;
+      padding: 0 15px;
+      h3 {
+        font-weight: bold;
+        margin-bottom: 1em;
+        line-height: 1.1;
+        @include mobile {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  /* Custom Carusel Styling */
+  .owl-carousel {
+    margin-bottom: 4em;
+    .owl-stage-outer {
+      padding-top: 1em;
+      margin-left: 8em;
+      @include mobile {
+        margin-left: 2em;
+      }
+      .process-step {
+        width: 12em;
+        .customNextBtn {
+          font-size: 32px;
+          color: $secondary-colour;
+          text-align: center;
+          display: inline;
+          position: absolute;
+          top: 1.1em;
+          left: 7em;
+        }
+      }
+    }
+    .owl-controls {
+      display: none;
+    }
+  }
+
+  /* Our Process */
   #content .container {
     min-width: 100%;
   }
@@ -18,68 +157,6 @@
       text-transform: uppercase;
       line-height: 1;
       font-weight: bold;
-    }
-  }
-  #slider {
-    .swiper-slide {
-      float: none;
-      height: 500px;
-    }
-    .slider-caption  {
-      margin-top: 100px;
-      h2, p {
-        color: $white !important;
-        text-align: center;
-      }
-    }
-  }
-
-  .home_container {
-    padding: 0 15px;
-    margin: 0 auto;
-    @include tablet {
-      width: 750px;
-    }
-    @include desktop {
-      width: 970px;
-    }
-    @include large {
-      width: 1170px;
-    }
-  }
-
-  .promo {
-    background-color: #f5f5f5;
-    .container {
-      max-width: 750px;
-      width: 75%;
-      margin: 0 auto;
-      padding: 0 15px;
-      h3 {
-        display: inline-block;
-      }
-    }
-  }
-  .owl-carousel {
-    margin-bottom: 4em;
-    .owl-stage-outer {
-      padding-top: 1em;
-      margin-left: 8em;
-      .process-step {
-        width: 12em;
-        .customNextBtn {
-          font-size: 32px;
-          color: #999;
-          text-align: center;
-          display: inline;
-          position: absolute;
-          top: 1.1em;
-          left: 7em;
-        }
-      }
-    }
-    .owl-controls {
-      display: none;
     }
   }
 }
