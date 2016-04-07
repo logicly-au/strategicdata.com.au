@@ -39,7 +39,7 @@ gulp.task('scripts', function() {
   // Build main.min.js from all js files
   return gulp.src(srcJs)
     .pipe(sourcemaps.init())
-    .pipe(order(["**/jquery.js"]))
+    .pipe(order(["**/jquery.js", "**/owl.carousel.js"]))
     .pipe(concat('sd-main.js'))
     .pipe(gulp.dest(dstJs))
     .pipe(uglify())
@@ -61,7 +61,6 @@ gulp.task('watch', function() {
   gulp.watch(srcImg, ['images']);
 });
 
-//gulp.task('build', ['styles', 'scripts', 'images']);
-gulp.task('build', ['styles', 'images']);
+gulp.task('build', ['styles', 'scripts', 'images']);
 
 gulp.task('default', ['build', 'watch']);

@@ -46,18 +46,3 @@
     </div>
   </div>
 </header>
-
-<script>
-  $(function() {
-    $("#primary-menu-trigger").on('click', trigger_mobile_menu);
-  });
-
-  trigger_mobile_menu = function() {
-    var $menu = $("#primary-menu ul");
-    if ( $menu.hasClass("show") ) {
-      $menu.removeClass("show");
-    } else {
-      $menu.addClass("show");
-    }
-  }
-</script>
