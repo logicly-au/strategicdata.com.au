@@ -19,11 +19,16 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 500px;
     transform: translate3d(0px, 0, 0);
     -webkit-transform: translate3d(0px, 0, 0);
     @include responsive {
       height: 100%;
+    }
+    @include desktop {
+      height: 450px;
+    }
+    @include large {
+      height: 500px;
     }
     .video-caption  {
       text-align: center;
@@ -48,6 +53,7 @@
         }
         @include mobile {
           font-size: 20px;
+          margin-bottom: 0;
         }
       }
       p {

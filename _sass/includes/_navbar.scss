@@ -24,6 +24,9 @@
   @include desktop {
     opacity: 0;
   }
+  @include mobile {
+    left: 0;
+  }
 }
 
 nav#primary-menu {
