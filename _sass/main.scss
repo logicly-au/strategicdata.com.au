@@ -6,8 +6,8 @@
 @import "vendors/owl-carousel";
 
 /* Helpers needed for other files */
-@import "helpers/variables";
 @import "helpers/mixins";
+@import "helpers/variables";
 
 /* Base styling */
 @import "base/typography";
@@ -22,5 +22,6 @@
 @import "includes/sidebar";
 
 /* Individual pages */
-@import "pages/home";
+@import "pages/blog";
 @import "pages/contact";
+@import "pages/home";
