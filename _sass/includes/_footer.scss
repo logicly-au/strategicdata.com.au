@@ -27,22 +27,35 @@
     }
   }
   #toplink {
-    margin-bottom: -25px;
     text-align: center;
     a i::before {
       color: $primary-colour;
     }
-  }
-  .footer-menu {
-    margin: 1em 0;
-    float: left;
-    @include desktop {
-      float: right;
-      margin: .5em 0 0 .2em;
+    @include mobile {
+      margin-bottom: .5em;
     }
-    li {
-      padding: 0;
+  }
+  .subfooter {
+    width: 100%;
+    height: 50px;
+    @include desktop {
+      height: 25px;
+    }
+    .copyright {
+      float: none;
       @include desktop {
+        float: left;
+        margin: .5em 0 0 .2em;
+      }
+    }
+    .footer-menu {
+      margin-top: 1em;
+      float: none;
+      @include desktop {
+        float: right;
+        margin: .5em 0 0 .2em;
+      }
+      li {
         padding: 0 3px;
       }
     }

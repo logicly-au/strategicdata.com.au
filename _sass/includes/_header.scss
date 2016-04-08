@@ -8,42 +8,39 @@
   #header-wrap {
     position: relative;
     height: 100px;
+    width: 100%;
+    padding: 0 30px;
     @include transitionHeight(0.4);
     @include transitionOpacity(0.3);
-    .container {
-      width: 100%;
-      padding: 0 30px;
+    #logo {
+      padding-right: 30px;
+      margin-right: 0;
+      border-right: 1px solid $border-grey;
       position: relative;
-      #logo {
-        padding-right: 30px;
-        margin-right: 0;
-        border-right: 1px solid $border-grey;
-        position: relative;
-        float: left;
-        @include transitionHeight(0.4);
-        @include transitionOpacity(0.4);
-        @include responsive {
-          float: none;
-          display: block;
-          height: 100px;
-          margin: 0 auto 0;
-          text-align: center;
-          border-right: 0 !important;
+      float: left;
+      @include transitionHeight(0.4);
+      @include transitionOpacity(0.4);
+      @include responsive {
+        float: none;
+        display: block;
+        height: 100px;
+        margin: 0 auto 0;
+        text-align: center;
+        border-right: 0;
+      }
+      a {
+        opacity: 1;
+        display: block;
+        &:focus,
+        &:hover {
+          opacity: 0.75;
         }
-        a {
-          opacity: 1;
-          display: block;
-          &:focus,
-          &:hover {
-            opacity: 0.75;
-          }
-          img {
-            height: 100px;
-            @include transitionHeight(0.4);
-            @include transitionOpacity(0.3);
-            max-width: 100%;
-            display: inline-block;
-          }
+        img {
+          height: 100px;
+          @include transitionHeight(0.4);
+          @include transitionOpacity(0.3);
+          max-width: 100%;
+          display: inline-block;
         }
       }
     }

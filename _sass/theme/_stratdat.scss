@@ -1,19 +1,24 @@
 #content {
   padding: 30px 0;
   overflow: hidden;
+  width: 100%;
 }
 
 .container {
   padding: 0 15px;
   margin: 0 auto;
+  width: 80%;
+  @include mobile {
+    width: 100%;
+  }
   @include tablet {
-    width: 750px;
+    max-width: 750px;
   }
   @include desktop {
-    width: 970px;
+    max-width: 970px;
   }
   @include large {
-    width: 1170px;
+    max-width: 1170px;
   }
 }
 
@@ -27,13 +32,13 @@
 }
 
 .btn-primary {
-  background-color: $primary-colour !important;
+  background-color: $primary-colour;
   color: $secondary-font-colour;
-  border-color: $dark-blue;
+  border-color: $very-dark-blue;
   font-weight: bold;
   &:hover,
   &:focus {
-    background-color: $dark-blue;
+    background-color: $very-dark-grey;
   }
 }
 
