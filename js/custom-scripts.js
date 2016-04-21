@@ -1,7 +1,16 @@
-$(function() {
+$(document).ready(function() {
+  $(window).scroll(sticky_header);
   $("#primary-menu-trigger").on('click', trigger_mobile_menu);
   $(".owl-carousel").owlCarousel();
 });
+
+sticky_header = function() {
+  if ($(document).scrollTop() > 55) {
+    $("#header").addClass("sticky-header");
+  } else {
+    $("#header").removeClass("sticky-header");
+  }
+}
 
 trigger_mobile_menu = function() {
   var $menu = $("#primary-menu ul");
