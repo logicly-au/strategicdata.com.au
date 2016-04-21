@@ -46,7 +46,7 @@
 </header>
 <section id="page-title">
   <div class="container">
-    <h1>{{ page.page-name }}</h1>
-    <span>{{ page.page-slogan }}</span>
+    <h1>{% if page.page-title %} {{ page.page-title }} {% else %} {{ page.page-name }} {% endif %}</h1>
+    <span>{{ page.page-subtitle }}</span>
   </div>
 </section>
