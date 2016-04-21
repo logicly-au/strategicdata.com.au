@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 
 sticky_header = function() {
-  if ($(document).scrollTop() > 55) {
+  if ($(document).scrollTop() > 40) {
     $("#header").addClass("sticky-header");
   } else {
     $("#header").removeClass("sticky-header");
