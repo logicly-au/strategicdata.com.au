@@ -23,7 +23,7 @@ page-subtitle: blog post about x
         <!-- Entry Title
         ============================================= -->
         <div class="entry-title">
-          <h2>This is a Standard post with a Preview Image</h2>
+          <h2>This is a Standard post with an Embedded Video</h2>
         </div><!-- .entry-title end -->
 
         <!-- Entry Meta
@@ -38,8 +38,8 @@ page-subtitle: blog post about x
         <!-- Entry Image
         ============================================= -->
         <div class="entry-image">
-          <a href="#"><img src="/img/blog/full/1.jpg" alt="Blog Single"></a>
-        </div><!-- .entry-image end -->
+          <iframe src="http://player.vimeo.com/video/87701971" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
 
         <!-- Entry Content
         ============================================= -->
@@ -114,9 +114,8 @@ padding-top: 40px;
 
         </div>
       </div><!-- .entry end -->
+      {% include footer_blog.html %}
 
-    {% include footer_blog.html %}
+    </div><!-- .postcontent end -->
 
-  </div><!-- .postcontent end -->
-
-{% include sidebar_blog.html %}
+  {% include sidebar_blog.html %}
