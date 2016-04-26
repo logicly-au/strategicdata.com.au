@@ -24,3 +24,47 @@
     }
   }
 }
+ /* Sidebar styling */
+#sidebar-tabs {
+  margin: 0 0 30px;
+  .tab-nav {
+    margin: 0;
+    border-bottom: 1px solid $border-grey;
+    li {
+      float: left;
+      border: 1px solid $border-grey;
+      border-bottom: 0;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      display: block;
+      padding: 0 15px;
+      background-color: #f2f2f2;
+      color: #444;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      &:first-child {
+        margin-left: 15px;
+        border-left: 1px solid $border-grey;
+      }
+      &.current {
+        background-color: #FFF;
+        border-bottom: 1px solid #FFF;
+      }
+    }
+  }
+  .tab-content{
+    display: none;
+    padding: 15px;
+    &.current {
+      display: inherit;
+    }
+    .spost {
+      border-top: 1px dashed $border-grey;
+      &:first-child {
+        border-top: 0;
+      }
+    }
+  }
+}
