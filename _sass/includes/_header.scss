@@ -9,17 +9,38 @@
     #header-wrap {
       height: 60px;
       position: fixed;
-      #logo a img {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      #logo {
         height: 60px;
+        a img {
+          height: 60px;
+        }
+      }
+      nav#primary-menu ul {
+        height: 60px;
+        li a {
+          line-height: 60px;
+          padding-left: 35px !important;
+        }
+        &.show {
+          background-color: #FFF;
+          margin-left: -30px !important;
+          margin-right: -30px !important;
+        }
+      }
+      #primary-menu-trigger {
+        top: 5px;
       }
     }
   }
   #header-wrap {
     position: relative;
-    height: 100px;
+    height: auto;
     width: 100%;
     padding: 0 30px;
     @include transitionHeight(0.4);
+    z-index: 199;
+    background-color: #FFF;
     #logo {
       padding-right: 30px;
       margin-right: 0;

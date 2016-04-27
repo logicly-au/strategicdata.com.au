@@ -1,0 +1,111 @@
+.footer-blog {
+  .tagcloud {
+    margin-bottom: 10px;
+    a {
+      transition: all 0.3s ease-in-out;
+      display: block;
+      float: left;
+      margin: 0 4px 4px 0;
+      padding: 3px 6px;
+      border: 1px solid $border-grey;
+      font-size: 13px;
+      color: $primary-font-colour;
+      @include roundedCorners(2);
+      &:hover,
+      &:focus {
+        color: $primary-colour;
+        border-color: $primary-colour;
+      }
+    }
+  }
+  .si-share {
+    position: relative;
+    padding-left: 5px;
+    span {
+      line-height: 36px;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    div {
+      float: right;
+    }
+    .social-icon {
+      transition: all .3s ease;
+      margin: -1px 0;
+      border-radius: 0;
+      font-size: 15px;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      color: #555;
+      overflow: hidden;
+      display: block;
+      float: left;
+      text-align: center;
+      cursor: pointer;
+      font-style: normal;
+      &:hover,
+      &:focus {
+        background-color: $primary-colour;
+        color: #FFF;
+        i:first-child {
+          margin-top: -38px;
+        }
+
+      }
+      i {
+        transition: all .3s ease;
+        display: block;
+        position: relative;
+        &:last-child {
+          color: #FFF;
+        }
+      }
+    }
+  }
+  .line {
+    margin: 40px 0 50px;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #EEE;
+  }
+  .author-image {
+    float: left;
+    width: 84px;
+    height: 84px;
+    margin-right: 15px;
+  }
+  .related-posts {
+    .left_col {
+      position: relative;
+      margin-right: 4%;
+      float: left;
+      width: 48%;
+    }
+    .right_col {
+      position: relative;
+      float: right;
+      width: 48%;
+    }
+    .mpost {
+      .entry-image {
+        margin-right: 20px;
+        width: 170px;
+        height: 128px;
+        float: left;
+      }
+      .entry-title {
+        font-size: 17px;
+      }
+      .entry-meta {
+        li {
+          float: none;
+        }
+      }
+      .entry-content {
+        margin: 35px 0;
+        position: relative;
+      }
+    }
+  }
+}

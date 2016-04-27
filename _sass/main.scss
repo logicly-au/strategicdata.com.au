@@ -17,6 +17,7 @@
 
 /* Includes */
 @import "includes/footer";
+@import "includes/footer_blog";
 @import "includes/header";
 @import "includes/navbar";
 @import "includes/sidebar";
@@ -24,5 +25,6 @@
 
 /* Individual pages */
 @import "pages/blog";
+@import "pages/blog_posts";
 @import "pages/contact";
 @import "pages/home";
