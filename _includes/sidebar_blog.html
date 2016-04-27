@@ -1,102 +1,82 @@
-<div class="sidebar nobottommargin col_last clearfix">
-  <div class="sidebar-widgets-wrap">
+<div class="sidebar-blog">
 
-    <div class="widget clearfix">
+  <div class="tabs" id="sidebar-tabs">
+    <ul class="blog-tab-nav clearfix">
+      <li>
+        <a href="#/tabs-1" class="tab-link current">Popular</a>
+      </li>
+      <li>
+        <a href="#/tabs-2" class="tab-link">Recent</a>
+      </li>
+    </ul>
 
-      <div class="tabs nobottommargin clearfix" id="sidebar-tabs">
-
-        <ul class="tab-nav clearfix">
-          <li class="tab-link current" data-tab="tabs-1" tabindex="0">Popular</li>
-          <li class="tab-link" data-tab="tabs-2" tabindex="0">Recent</li>
-        </ul>
-
-        <div class="tab-container">
-          <div class="tab-content clearfix current" id="tabs-1">
-            <div id="popular-post-list-sidebar">
-              <div class="spost clearfix">
-                <div class="entry-image">
-                  <a href="/blog/post-preview.html" class="nobg"><img class="img-circle" src="/img/blog/small/3.jpg" alt=""></a>
-                </div>
-                <div class="entry-c">
-                  <div class="entry-title">
-                    <h4><a href="/blog/post-preview.html">Post Preview</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>10th Feb 2016</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="spost clearfix">
-                <div class="entry-image">
-                  <a href="/blog/post-video.html" class="nobg"><img class="img-circle" src="/img/blog/small/2.jpg" alt=""></a>
-                </div>
-                <div class="entry-c">
-                  <div class="entry-title">
-                    <h4><a href="/blog/post-video.html">Post Video</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>16th Feb 2016</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-content clearfix" id="tabs-2">
-            <div id="recent-post-list-sidebar">
-              <div class="spost clearfix">
-                <div class="entry-image">
-                  <a href="/blog/post-quote.html" class="nobg"><img class="img-circle" src="/img/blog/small/1.jpg" alt=""></a>
-                </div>
-                <div class="entry-c">
-                  <div class="entry-title">
-                    <h4><a href="/blog/post-quote.html">Post Quote</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>3rd March 2016</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="spost clearfix">
-                <div class="entry-image">
-                  <a href="/blog/post-gallery.html" class="nobg"><img class="img-circle" src="/img/blog/small/2.jpg" alt=""></a>
-                </div>
-                <div class="entry-c">
-                  <div class="entry-title">
-                    <h4><a href="/blog/post-gallery.html">Post Gallery</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>9th March 2016</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="tab-container">
+      <div class="tab-content current" id="tabs-1">
+        <div class="spost">
+          <a href="/blog/post-preview.html" class="entry-image">
+            <img class="img-circle" src="/img/blog/small/3.jpg" alt="">
+          </a>
+          <h4 class="entry-title">
+            <a href="/blog/post-preview.html">Post Preview</a>
+          </h4>
+          <ul class="entry-meta">
+            <li>10th Feb 2016</li>
+          </ul>
         </div>
-
+        <div class="spost">
+          <a href="/blog/post-video.html" class="entry-image">
+            <img class="img-circle" src="/img/blog/small/2.jpg" alt="">
+          </a>
+          <h4 class="entry-title">
+            <a href="/blog/post-video.html">Post Video</a>
+          </h4>
+          <ul class="entry-meta">
+            <li>16th Feb 2016</li>
+          </ul>
+        </div>
       </div>
 
-    </div>
-
-    <div class="widget clearfix">
-
-      <h4>Tag Cloud</h4>
-      <div class="tagcloud">
-        <a href="#">general</a>
-        <a href="#">videos</a>
-        <a href="#">culture</a>
-        <a href="#">technology</a>
-        <a href="#">statistics</a>
-        <a href="#">perl</a>
-        <a href="#">angular</a>
-        <a href="#">devops</a>
-        <a href="#">community</a>
-        <a href="#">development</a>
+      <div class="tab-content" id="tabs-2">
+        <div class="spost">
+          <a href="/blog/post-quote.html" class="entry-image">
+            <img class="img-circle" src="/img/blog/small/1.jpg" alt="">
+          </a>
+          <h4 class="entry-title">
+            <a href="/blog/post-quote.html">Post Quote</a>
+          </h4>
+          <ul class="entry-meta">
+            <li>3rd March 2016</li>
+          </ul>
+        </div>
+        <div class="spost">
+          <a href="/blog/post-gallery.html" class="entry-image">
+            <img class="img-circle" src="/img/blog/small/2.jpg" alt="">
+          </a>
+          <h4 class="entry-title">
+            <a href="/blog/post-gallery.html">Post Gallery</a>
+          </h4>
+          <ul class="entry-meta">
+            <li>9th March 2016</li>
+          </ul>
+        </div>
       </div>
-
     </div>
+  </div>
 
+  <div class="tags">
+    <h4>Tag Cloud</h4>
+    <div class="tagcloud">
+      <a href="#">general</a>
+      <a href="#">videos</a>
+      <a href="#">culture</a>
+      <a href="#">technology</a>
+      <a href="#">statistics</a>
+      <a href="#">perl</a>
+      <a href="#">angular</a>
+      <a href="#">devops</a>
+      <a href="#">community</a>
+      <a href="#">development</a>
+    </div>
   </div>
 
 </div>

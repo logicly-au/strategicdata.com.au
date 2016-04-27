@@ -2,68 +2,17 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-flow: row wrap;
-  -webkit-flex-flow: row wrap;
-  justify-content: flex-start;;
+  @include flexbox(row);
+  justify-content: flex-start;
   align-items: center;
   .gallery_thumb {
     display: inline-block;
     text-align: center;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin: 0 10px 10px 0;
     a {
       text-decoration: none;
       img {
         max-width: 160px;
-      }
-    }
-  }
-}
- /* Sidebar styling */
-#sidebar-tabs {
-  margin: 0 0 30px;
-  .tab-nav {
-    margin: 0;
-    border-bottom: 1px solid $border-grey;
-    li {
-      float: left;
-      border: 1px solid $border-grey;
-      border-bottom: 0;
-      height: 40px;
-      line-height: 40px;
-      text-align: center;
-      display: block;
-      padding: 0 15px;
-      background-color: #f2f2f2;
-      color: #444;
-      font-size: 14px;
-      font-weight: bold;
-      cursor: pointer;
-      &:first-child {
-        margin-left: 15px;
-        border-left: 1px solid $border-grey;
-      }
-      &.current {
-        background-color: #FFF;
-        border-bottom: 1px solid #FFF;
-      }
-    }
-  }
-  .tab-content{
-    display: none;
-    padding: 15px;
-    &.current {
-      display: inherit;
-    }
-    .spost {
-      border-top: 1px dashed $border-grey;
-      &:first-child {
-        border-top: 0;
       }
     }
   }

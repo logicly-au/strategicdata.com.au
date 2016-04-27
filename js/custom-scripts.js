@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(window).scroll(sticky_header);
   $("#primary-menu-trigger").click( trigger_mobile_menu );
-  $("#sidebar-tabs ul.tab-nav li").click( toggle_blog_sidebar );
+  $(".tab-link").click( toggle_blog_sidebar );
   $(".owl-carousel").owlCarousel();
 });
 
@@ -23,13 +23,12 @@ trigger_mobile_menu = function() {
 }
 
 toggle_blog_sidebar = function() {
-  var tab_id  = $(this).attr('data-tab');
-
-  $('#sidebar-tabs ul.tab-nav li').removeClass('current');
+  var tab_id  = $(this).attr('href').replace("/", "");
+  $('.tab-link').removeClass('current');
   $('.tab-content').removeClass('current');
 
   $(this).addClass('current');
-  $("#"+tab_id).addClass('current');
+  $(tab_id).addClass('current');
 }
 
 var owl = $('.owl-carousel');

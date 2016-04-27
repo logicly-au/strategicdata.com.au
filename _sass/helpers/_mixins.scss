@@ -85,3 +85,22 @@ $mobile-width:        600px;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
+
+@mixin flexbox($orientation) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: $orientation wrap;
+  -webkit-flex-flow: $orientation wrap;
+}
+
+@mixin clearfix {
+  &::before,
+  &::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
