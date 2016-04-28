@@ -21,11 +21,13 @@ $yellow:            #FFBD35;
 
 /* Typography */
 $open-sans-family:  "Open Sans",Arial,serif;
-$raleway-family:    'Raleway', sans-serif;
+$raleway-font:      "Raleway", sans-serif;
+$crete-family:      "Crete Round", serif;
 
 /* Default Styling */
 $primary-font:          $open-sans-family;
-$header-font:           $raleway-family;
+$nav-font:              $raleway-font;
+$quote-font:            $crete-family;
 $primary-font-colour:   $very-dark-grey;
 $light-primary-font:    $dark-grey;
 $secondary-font-colour: $white;
@@ -33,7 +35,9 @@ $primary-colour:        $dark-blue;
 $secondary-colour:      $grey;
 $body-background:       $white;
 $border-grey:           $very-light-grey;
+$border-light-grey:     $mostly-white;
 $promo-bg:              $mostly-white;
+$blog-timeline:         $light-grey;
 $sidebar-font:          $red-grey;
 $sidebar-bg:            $mostly-white;
 $sidebar-bg-hover:      $very-light-grey;

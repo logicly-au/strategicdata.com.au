@@ -65,6 +65,13 @@ $mobile-width:        600px;
           transition: opacity $time + s ease;
 }
 
+@mixin transitionAll($time) {
+  -webkit-transition: all $time + s ease-in-out;
+     -moz-transition: all $time + s ease-in-out;
+       -o-transition: all $time + s ease-in-out;
+          transition: all $time + s ease-in-out;
+}
+
 @mixin transitionTransform($time) {
   -webkit-transition: -webkit-transform $time + s, opacity $time + s;
      -moz-transition: -moz-transform $time + s, opacity $time + s;

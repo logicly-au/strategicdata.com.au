@@ -62,7 +62,7 @@ nav#primary-menu {
         font-size: 13px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        font-family: $header-font;
+        font-family: $nav-font;
         @include transitionHeight(0.4);
         &:hover,
         &:focus {
@@ -80,7 +80,7 @@ nav#primary-menu {
         float: none;
         margin: 0 !important;
         text-align: left !important;
-        border-top: 1px solid #EEE;
+        border-top: 1px solid $border-light-grey;
       }
     }
     li.current a {
@@ -167,7 +167,7 @@ nav#primary-menu {
         color: $primary-font-colour;
         font-weight: 700;
         margin-top: 0;
-        font-family: $header-font;
+        font-family: $nav-font;
         letter-spacing: 2px;
         @include responsive {
           font-size: 24px;

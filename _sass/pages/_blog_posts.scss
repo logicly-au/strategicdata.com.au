@@ -6,7 +6,7 @@
   width: 100%;
   padding-bottom: 50px;
   margin-bottom: 50px;
-  border-bottom: 2px solid #F5F5F5;
+  border-bottom: 2px solid $border-light-grey;
   .entry-image {
     margin-bottom: 30px;
     @include roundedCorners(3);
@@ -37,10 +37,10 @@
       font-size: 13px;
       line-height: 14px;
       margin: 0 10px 15px 0;
-      color: #999;
+      color: $secondary-colour;
       font-style: italic;
       a {
-        color: #999;
+        color: $secondary-colour;
         &:hover,
         &:focus {
           color: $primary-colour;

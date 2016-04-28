@@ -2,7 +2,7 @@
   .tagcloud {
     margin-bottom: 10px;
     a {
-      transition: all 0.3s ease-in-out;
+      @include transitionAll(0.3);
       display: block;
       float: left;
       margin: 0 4px 4px 0;
@@ -37,7 +37,7 @@
       width: 40px;
       height: 40px;
       line-height: 38px;
-      color: #555;
+      color: $light-primary-font;
       overflow: hidden;
       display: block;
       float: left;
@@ -47,7 +47,7 @@
       &:hover,
       &:focus {
         background-color: $primary-colour;
-        color: #FFF;
+        color: $secondary-font-colour;
         i:first-child {
           margin-top: -38px;
         }
@@ -67,7 +67,7 @@
     margin: 40px 0 50px;
     position: relative;
     width: 100%;
-    border-top: 1px solid #EEE;
+    border-top: 1px solid $blog-timeline;
   }
   .author-image {
     float: left;
