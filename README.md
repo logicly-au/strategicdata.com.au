@@ -14,7 +14,7 @@ You can use a combination of [MarkDown](https://github.com/adam-p/markdown-here/
 
 #### A Blog Post will require the following:
 
-{% highlight js %}
+```
 ---
 layout: post
 title:
@@ -24,11 +24,11 @@ year: YYYY
 tags: collection, of, comma, separated, words, that, describe, your, post
 description: Short description that will appear on the index page
 
-{% endhighlight %}
+```
 
 #### In addition if you would like a preview image, video, title or quote to show add the following that apply
 
-{% highlight js %}
+```
 
 page-name: Will appear in the grey banner on the blog page
 page-subtitle:
@@ -37,4 +37,4 @@ video_url: full url of a video
 quote:
 quote-author:
 ---
-{% endhighlight %}
+```
