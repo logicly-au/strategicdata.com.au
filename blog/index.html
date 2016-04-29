@@ -10,133 +10,43 @@ page-subtitle: Out Latest News
     <div class="post-timeline">
       <div class="timeline-border"></div>
 
+      {% for post in site.posts %}
       <div class="entry">
         <div class="entry-timeline">
-          10<span>Feb</span>
+          {{ post.day }}<span>{{ post.month }}</span>
           <div class="timeline-divider"></div>
         </div>
-        <a href="/blog/post-preview.html">
-          <img class="entry-image" src="/img/blog/full/17.jpg" alt="Standard Post with Image">
-        </a>
-        <h2 class="entry-title">
-          <a href="/blog/post-preview.html">This is a Standard post with a Preview Image</a>
-        </h2>
-        <ul class="entry-meta clearfix">
-          <li><a href="#"><i class="icon-user"></i> admin</a></li>
-          <li><i class="icon-folder-open"></i> <a href="#">General</a>, <a href="#">Media</a></li>
-          <li><a href="#"><i class="icon-camera-retro"></i></a></li>
-        </ul>
-        <p class="entry-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
-        <a href="/blog/post-preview.html"class="more-link">Read More</a>
-      </div>
 
-      <div class="entry">
-        <div class="entry-timeline">
-          16<span>Feb</span>
-          <div class="timeline-divider"></div>
-        </div>
-        <div class="entry-image">
-          <iframe src="http://player.vimeo.com/video/87701971" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-        <h2 class="entry-title">
-          <a href="/blog/post-video.html">This is a Standard post with an Embedded Video</a>
-        </h2>
-        <ul class="entry-meta clearfix">
-          <li><a href="#"><i class="icon-user"></i> admin</a></li>
-          <li><i class="icon-folder-open"></i> <a href="#">Videos</a>, <a href="#">News</a></li>
-          <li><a href="#"><i class="icon-film"></i></a></li>
-        </ul>
-        <p class="entry-content">Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis placeat quo unde reprehenderit eum facilis vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, reprehenderit!</p>
-        <a href="/blog/post-video.html"class="more-link">Read More</a>
-      </div>
+        {% if post.photo_url %}
+          <img class="entry-image" src="/img/blog/{{post.photo_url}}" alt="{{ post.title }}">
+        {% elsif post.video_url %}
+          <div class="entry-image">
+            <iframe src="{{post.video_url}}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        {% elsif post.quote %}
+          <blockquote class="entry-image">
+            <p>{{ post.quote }}</p>
+            <footer>{{ post.quote-author }}</footer>
+          </blockquote>
+        {% endif %}
 
-      <div class="entry">
-        <div class="entry-timeline">
-          3<span>Mar</span>
-          <div class="timeline-divider"></div>
-        </div>
-        <blockquote class="entry-image">
-          <p>"When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That's relativity."</p>
-          <footer>Albert Einstein</footer>
-        </blockquote>
-        <h2 class="entry-title">
-          <a href="/blog/post-quote.html">This is a Standard post with a Quote</a>
-        </h2>
-        <ul class="entry-meta clearfix">
-          <li><a href="#"><i class="icon-user"></i> admin</a></li>
-          <li><i class="icon-folder-open"></i> <a href="#">Quotes</a>, <a href="#">People</a></li>
-          <li><a href="#"><i class="icon-quote-left"></i></a></li>
-        </ul><br>
-        <a href="/blog/post-quote.html"class="more-link">Read More</a>
-      </div>
+        <h2 class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-      <div class="entry">
-        <div class="entry-timeline">
-          9<span>Mar</span>
-          <div class="timeline-divider"></div>
-        </div>
-        <div class="entry-image">
-          <ul class="gallery">
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/2.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/2.jpg">
-                <img src="/img/blog/small/2.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/3.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/3.jpg">
-                <img src="/img/blog/small/3.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/6-1.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/6-1.jpg">
-                <img src="/img/blog/small/6-1.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/6-2.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/6-2.jpg">
-                <img src="/img/blog/small/6-2.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/12.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/12.jpg">
-                <img src="/img/blog/small/12.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/12-1.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/12-1.jpg">
-                <img src="/img/blog/small/12-1.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/13.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/13.jpg">
-                <img src="/img/blog/small/13.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/18.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/18.jpg">
-                <img src="/img/blog/small/18.jpg" alt="">
-              </a>
-            </li>
-            <li class="gallery_thumb">
-              <a href="/img/blog/full/19.jpg" class="html5lightbox" title="" data-group="gallery" data-thumbnail="/img/blog/small/19.jpg">
-                <img src="/img/blog/small/19.jpg" alt="">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <h2 class="entry-title">
-          <a href="/blog/post-gallery.html">This is a Standard post with Masonry Thumbs Gallery</a>
-        </h2>
         <ul class="entry-meta clearfix">
-          <li><a href="#"><i class="icon-user"></i> admin</a></li>
-          <li><i class="icon-folder-open"></i> <a href="#">Gallery</a>, <a href="#">Media</a></li>
-          <li><a href="#"><i class="icon-picture"></i></a></li>
+          <li>
+            <i class="icon-tags"></i>
+            {% for tag in post.tags %}
+              <a href="#">{{ tag }}</a>
+            {% endfor %}
+          </li>
         </ul>
-        <p class="entry-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga. Maiores, sunt eveniet doloremque porro hic exercitationem distinctio sequi adipisci. Nulla, fuga perferendis voluptatum beatae voluptate architecto laboriosam provident deserunt. Saepe!</p>
-        <a href="/blog/post-gallery.html"class="more-link">Read More</a>
+        <p class="entry-content">
+          {{ post.description }}
+        </p>
+        <a href="{{ post.url }}"class="more-link">Read More</a>
       </div>
+      {% endfor %}
     </div>
   </div>
-
 {% include sidebar_blog.html %}
 </div>

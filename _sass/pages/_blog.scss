@@ -1,4 +1,12 @@
 /* Generic class styling for all blog pages */
+/*
+.entry{
+  display: none;
+  &.current {
+    display: inherit;
+  }
+}
+*/
 .entry {
   position: relative;
   width: 100%;
@@ -13,7 +21,7 @@
     height: auto;
   }
   .entry-title {
-    margin: 0;
+    margin: 0 0 1em 0;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -27,7 +35,6 @@
     }
   }
   .entry-meta {
-    margin: 10px -10px -15px 0;
     padding-left: 0;
     list-style: none;
     li {
@@ -174,9 +181,4 @@
 /* Specific styling for a single blog post page */
 .single-post {
   margin-bottom: 0;
-  .entry {
-    .entry-meta {
-      margin: 0;
-    }
-  }
 }
