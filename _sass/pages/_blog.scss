@@ -1,3 +1,92 @@
+/* Generic class styling for all blog pages */
+.entry {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid $border-light-grey;
+  .entry-image {
+    margin-bottom: 30px;
+    @include roundedCorners(3);
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .entry-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    a {
+      color: $primary-font-colour;
+      &:hover,
+      &:focus {
+        color: $primary-colour;
+      }
+    }
+  }
+  .entry-meta {
+    margin: 10px -10px -15px 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+      float: left;
+      font-size: 13px;
+      line-height: 14px;
+      margin: 0 10px 15px 0;
+      color: $secondary-colour;
+      font-style: italic;
+      a {
+        color: $secondary-colour;
+        &:hover,
+        &:focus {
+          color: $primary-colour;
+        }
+      }
+      i {
+        position: relative;
+        top: 1px;
+        font-size: 14px;
+        margin-right: 3px;
+      }
+      &:before {
+        content: '/';
+        display: inline-block;
+        margin-right: 10px;
+        opacity: 0.5;
+      }
+      &:first-child::before {
+        content: '';
+      }
+    }
+  }
+  .entry-content {
+    line-height: 1.8;
+  }
+}
+
+.gallery {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  @include flexbox(row);
+  justify-content: flex-start;
+  align-items: center;
+  .gallery_thumb {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    a {
+      text-decoration: none;
+      img {
+        max-width: 160px;
+      }
+    }
+  }
+}
+
+/* Specific styling for blog index page */
 .postcontent {
   margin-right: 40px;
   display: block;
@@ -31,11 +120,6 @@
       }
     }
     .entry {
-      position: relative;
-      width: 100%;
-      padding-bottom: 50px;
-      margin-bottom: 50px;
-      border-bottom: 2px solid $border-light-grey;
       .entry-timeline {
         position: absolute;
         top: 20px;
@@ -77,65 +161,6 @@
           display: none;
         }
       }
-      .entry-image {
-        margin-bottom: 30px;
-        @include roundedCorners(3);
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-      .entry-title {
-        margin: 0;
-        font-size: 24px;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        a {
-          color: $primary-font-colour;
-          &:hover,
-          &:focus {
-            color: $primary-colour;
-          }
-        }
-      }
-      .entry-meta {
-        margin: 10px -10px -15px 0;
-        padding-left: 0;
-        list-style: none;
-        li {
-          float: left;
-          font-size: 13px;
-          line-height: 14px;
-          margin: 0 10px 15px 0;
-          color: $secondary-colour;
-          font-style: italic;
-          a {
-            color: $secondary-colour;
-            &:hover,
-            &:focus {
-              color: $primary-colour;
-            }
-          }
-          i {
-            position: relative;
-            top: 1px;
-            font-size: 14px;
-            margin-right: 3px;
-          }
-          &:before {
-            content: '/';
-            display: inline-block;
-            margin-right: 10px;
-            opacity: 0.5;
-          }
-          &:first-child::before {
-            content: '';
-          }
-        }
-      }
-      .entry-content {
-        line-height: 1.8;
-      }
       .more-link {
         display: inline-block;
         border-bottom: 1px solid $primary-colour;
@@ -146,22 +171,12 @@
   }
 }
 
-.gallery {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  @include flexbox(row);
-  justify-content: flex-start;
-  align-items: center;
-  .gallery_thumb {
-    display: inline-block;
-    text-align: center;
-    margin: 0 10px 10px 0;
-    a {
-      text-decoration: none;
-      img {
-        max-width: 160px;
-      }
+/* Specific styling for a single blog post page */
+.single-post {
+  margin-bottom: 0;
+  .entry {
+    .entry-meta {
+      margin: 0;
     }
   }
 }
