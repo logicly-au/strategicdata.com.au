@@ -1,5 +1,5 @@
 .footer-blog {
-  .tagcloud {
+  /*.tagcloud {
     margin-bottom: 10px;
     a {
       @include transitionAll(0.3);
@@ -17,7 +17,7 @@
         border-color: $primary-colour;
       }
     }
-  }
+  }*/
   .si-share {
     position: relative;
     padding-left: 5px;
@@ -76,18 +76,13 @@
     margin-right: 15px;
   }
   .related-posts {
-    .left_col {
-      position: relative;
-      margin-right: 4%;
-      float: left;
-      width: 48%;
-    }
-    .right_col {
-      position: relative;
-      float: right;
-      width: 48%;
-    }
     .mpost {
+      position: relative;
+      display: inline-block;
+      width: 48%;
+      &:nth-child(even) {
+        float: right;
+      }
       .entry-image {
         margin-right: 20px;
         width: 170px;
