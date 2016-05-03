@@ -40,7 +40,7 @@ quote-author:
 ```
 
 #### If you would like to show a few images in a gallery add the following
-** In the `_data/galleries.yaml` file **
+**In the `_data/galleries.yaml` file**
 Add a new item in the yaml with details of your gallery including:
  - a unique name for your gallery (lowercase letters with no spaces or .)
  - The file path to where your images are stored
@@ -57,7 +57,7 @@ Add a new item in the yaml with details of your gallery including:
     text: The second image
 ```
 
-** In the Front Matter of your blog file **
+**In the Front Matter of your blog file**
 Then add the id from the yaml to the top part of your blog post like you would an image or quote like above and the image gallery will appear in the blog index and the page.
 ```
 gallery: id of your gallery here
