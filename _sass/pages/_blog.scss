@@ -50,6 +50,15 @@
         &:focus {
           color: $primary-colour;
         }
+        &:before {
+          content: '/';
+          display: inline-block;
+          margin-right: 10px;
+          opacity: 0.5;
+        }
+        &:first-child::before {
+          content: '';
+        }
       }
       i {
         position: relative;
@@ -181,4 +190,37 @@
 /* Specific styling for a single blog post page */
 .single-post {
   margin-bottom: 0;
+}
+
+/* Specific styling for tag page */
+.blog-tags {
+  h2 {
+    font-size: 2em;
+  }
+  .anchor{
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; /*same height as header*/
+    visibility: hidden;
+  }
+  .entry-image {
+    float: left;
+    width: 300px;
+    margin: 0 30px 0 0;
+    .gallery img {
+      width: 75px;
+    }
+    iframe {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  .entry-c {
+    position: relative;
+    overflow: hidden;
+    .entry-title {
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
 }

@@ -21,7 +21,7 @@ title:
 day: DD
 month: MM
 year: YYYY
-tags: collection, of, comma, separated, words, that, describe, your, post
+tags: collection of words that describe your post
 description: Short description that will appear on the index page
 
 ```

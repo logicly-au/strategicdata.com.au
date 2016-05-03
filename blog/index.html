@@ -1,8 +1,7 @@
 ---
-title: Blog - Strategic Data
+title: Blog
 page-name: blog
-page-subtitle: Out Latest News
-galleryid: gallery1
+page-subtitle: Out Latest News - TimeLine
 ---
 
 <h2 class="title-divider">Timeline</h2>
@@ -39,7 +38,7 @@ galleryid: gallery1
           <li>
             <i class="icon-tags"></i>
             {% for tag in post.tags %}
-              <a href="#">{{ tag }}</a>
+              <a href="/blog/tags#{{ tag }}">{{ tag }}</a>
             {% endfor %}
           </li>
         </ul>

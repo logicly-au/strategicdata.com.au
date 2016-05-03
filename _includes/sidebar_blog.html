@@ -63,19 +63,22 @@
     </div>
   </div>
 
+  <!-- Get the tag name for every tag on the site and set them
+  to the `site_tags` variable. -->
+  {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
+  <!-- `tag_words` is a sorted array of the tag names. -->
+  {% assign tag_words = site_tags | split:',' | sort %}
+
   <div class="tags">
     <h4>Tag Cloud</h4>
     <div class="tagcloud">
-      <a href="#">general</a>
-      <a href="#">videos</a>
-      <a href="#">culture</a>
-      <a href="#">technology</a>
-      <a href="#">statistics</a>
-      <a href="#">perl</a>
-      <a href="#">angular</a>
-      <a href="#">devops</a>
-      <a href="#">community</a>
-      <a href="#">development</a>
+    {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+      {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+      <a href="/blog/tags#{{ this_word | cgi_escape }}" class="tag">{{ this_word }}
+        <span>({{ site.tags[this_word].size }})</span>
+      </a>
+    {% endunless %}{% endfor %}
     </div>
   </div>
 
