@@ -4,15 +4,6 @@ permalink:           pretty
 # Setup
 title:               Strategic Data
 url:                 http://new.strategicdata.com.au/
-paginate:            5
-
-# Gems
-gems:
-  - jekyll-tagging
-  - jekyll-paginate
-
-#tag_page_layout: tag_page
-#tag_page_dir: tag
 
 exclude: [node_modules,vendor]
 defaults:

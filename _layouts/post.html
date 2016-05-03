@@ -35,6 +35,8 @@ title: Blog Post - Strategic Data
             <p>{{ page.quote }}</p>
             <footer>{{ page.quote-author }}</footer>
           </blockquote>
+        {% elsif page.gallery %}
+          {% include gallery.html variable-param=page.gallery %}
         {% endif %}
 
         <div class="entry-content">
