@@ -79,6 +79,23 @@
     height: 84px;
     margin-right: 15px;
   }
+  .post-navigation {
+    a {
+      &:first-child {
+        &:before {
+          font-family: $icon-font;
+          content: "\f177";
+        }
+      }
+      &:last-child {
+        float: right;
+        &:after {
+          font-family: $icon-font;
+          content: "\f178";
+        }
+      }
+    }
+  }
   .related-posts {
     .mpost {
       position: relative;

@@ -23,8 +23,12 @@
   </div>
 
   <div class="post-navigation">
-    <a href="/2015/11/26/test4/">&lArr; This is a Standard post with a Gallery</a>
-    <a href="/2016/02/16/test/" class="right">This is an Embedded Video Post &rArr;</a>
+    {% for post in site.related_posts %}
+      <a href="{{ post.url }}"> {{ post.title }} </a>
+      {% if forloop.index == 2 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
   </div>
 
   <div class="line"></div>
