@@ -204,6 +204,10 @@
     float: left;
     width: 300px;
     margin: 0 30px 0 0;
+    @include mobile {
+      float: none;
+      width: 100%;
+    }
     .gallery img {
       width: 75px;
     }
@@ -215,6 +219,11 @@
   .entry-c {
     position: relative;
     overflow: hidden;
+    width: 350px;
+    @include mobile {
+      overflow: visible;
+      width: 100%;
+    }
     .entry-title {
       font-size: 20px;
       font-weight: normal;
