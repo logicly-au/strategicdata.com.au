@@ -84,14 +84,14 @@
       &:first-child {
         &:before {
           font-family: $icon-font;
-          content: "\f177";
+          content: $fa-var-long-arrow-left;
         }
       }
       &:last-child {
         float: right;
         &:after {
           font-family: $icon-font;
-          content: "\f178";
+          content: $fa-var-long-arrow-right;
         }
       }
     }
