@@ -1,23 +1,4 @@
 .footer-blog {
-  /*.tagcloud {
-    margin-bottom: 10px;
-    a {
-      @include transitionAll(0.3);
-      display: block;
-      float: left;
-      margin: 0 4px 4px 0;
-      padding: 3px 6px;
-      border: 1px solid $border-grey;
-      font-size: 13px;
-      color: $primary-font-colour;
-      @include roundedCorners(2);
-      &:hover,
-      &:focus {
-        color: $primary-colour;
-        border-color: $primary-colour;
-      }
-    }
-  }*/
   .si-share {
     position: relative;
     padding-left: 5px;
@@ -46,19 +27,42 @@
       font-style: normal;
       &:hover,
       &:focus {
-        background-color: $primary-colour;
         color: $secondary-font-colour;
         i:first-child {
           margin-top: -38px;
         }
 
       }
+      &.si-facebook {
+        &:hover,
+        &:focus {
+          background-color: $facebook-blue;
+        }
+      }
+      &.si-twitter {
+        &:hover,
+        &:focus {
+          background-color: $twitter-blue;
+        }
+      }
+      &.si-gplus {
+        &:hover,
+        &:focus {
+          background-color: $gplus-red;
+        }
+      }
+      &.si-rss {
+        &:hover,
+        &:focus {
+          background-color: $rss-orange;
+        }
+      }
       i {
         transition: all .3s ease;
         display: block;
         position: relative;
         &:last-child {
-          color: #FFF;
+          color: $secondary-font-colour;
         }
       }
     }
