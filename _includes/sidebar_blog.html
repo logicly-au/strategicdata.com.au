@@ -12,7 +12,7 @@
 
     <div class="tab-container">
       <div class="tab-content current" id="tabs-1">
-        {% for post in site.related_posts %}
+        {% for post in site.related_posts limit: 3 %}
           <div class="spost">
             <a href="{{ post.url }}" class="entry-image">
               <img class="img-circle" src="/img/blog/examplegallery/{{ forloop.index }}-thumb.jpg" alt="">
@@ -24,14 +24,11 @@
               <li>{{ post.day }}/{{ post.month }}/{{ post.year }}</li>
             </ul>
           </div>
-          {% if forloop.index == 3 %}
-            {% break %}
-          {% endif %}
         {% endfor %}
       </div>
 
       <div class="tab-content" id="tabs-2">
-        {% for post in site.posts %}
+        {% for post in site.posts limit: 3 %}
           <div class="spost">
             <a href="{{ post.url }}" class="entry-image">
               <img class="img-circle" src="/img/blog/examplegallery/{{ forloop.index }}-thumb.jpg" alt="">
@@ -43,9 +40,6 @@
               <li>{{ post.day }}/{{ post.month }}/{{ post.year }}</li>
             </ul>
           </div>
-          {% if forloop.index == 3 %}
-            {% break %}
-          {% endif %}
         {% endfor %}
       </div>
     </div>
