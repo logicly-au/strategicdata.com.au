@@ -3,7 +3,13 @@ permalink:           pretty
 
 # Setup
 title:               Strategic Data
-url:                 http://new.strategicdata.com.au/
+url:                 http://strategicdata.com.au/
+
+# About/contact
+author:
+  name:              'Strategic Data'
+  email:             'info@strategicdata.com.au'
+  github:            'https://github.com/strategicdata/strategicdata.com.au'
 
 exclude: [node_modules,vendor]
 defaults:
