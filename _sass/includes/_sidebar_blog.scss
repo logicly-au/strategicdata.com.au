@@ -3,7 +3,7 @@
   float: right;
   display: block;
   position: relative;
-  width: 240px;
+  width: 25%;
   margin-bottom: 0;
   margin-top: 1.5em;
   @include responsive {
@@ -16,6 +16,10 @@
       float: left;
       width: 45%;
       margin-right: 3%;
+    }
+    @include mobile {
+      float: none;
+      width: 100%;
     }
     .blog-tab-nav {
       margin: 0;
@@ -118,6 +122,10 @@
     @include responsive {
       display: inline-block;
       width: 45%;
+    }
+    @include mobile {
+      float: none;
+      width: 100%;
     }
     .tagcloud a {
       @include transitionAll(0.3);

@@ -1,12 +1,4 @@
 /* Generic class styling for all blog pages */
-/*
-.entry{
-  display: none;
-  &.current {
-    display: inherit;
-  }
-}
-*/
 .entry {
   position: relative;
   width: 100%;
@@ -19,6 +11,12 @@
     display: block;
     width: 100%;
     height: auto;
+    iframe {
+      @include mobile {
+        width: 90%;
+        height: 90%;
+      }
+    }
   }
   .entry-title {
     margin: 0 0 1em 0;
@@ -104,7 +102,6 @@
 
 /* Specific styling for blog index page */
 .postcontent {
-  margin-right: 40px;
   display: block;
   position: relative;
   float: left;

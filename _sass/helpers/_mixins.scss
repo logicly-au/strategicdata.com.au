@@ -1,7 +1,7 @@
 $large-screen:       1200px;
 $desktop-width:      1020px;
 $responsive-width:    768px;
-$mobile-width:        600px;
+$mobile-width:        500px;
 
 @mixin large {
   @media (min-width: #{$large-screen}) {
