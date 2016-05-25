@@ -24,4 +24,17 @@
     text: The seventh image
   - name: 8.jpg
     thumb: 8-thumb.jpg
-    text: The eighth image  
+    text: The eighth image
+
+- id: gallery2
+  imagefolder: /img/
+  images:
+  - name: OPEA-1.png
+    thumb: OPEA-1.png
+    text: Login Screen
+  - name: OPEA-2.png
+    thumb: OPEA-2.png
+    text: Home Screen
+  - name: OPEA-3.png
+    thumb: OPEA-3.png
+    text: Help Screen

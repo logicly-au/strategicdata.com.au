@@ -2,36 +2,31 @@
 title: Case Studies - Strategic Data
 page-name: cases
 page-subtitle: A subtitle can go here
+gallery: gallery2
 ---
 {% include sidebar_cases.html param="cases" %}
 
 <div class="col-md-9">
   <h2 class="title-divider">Case <span class="de-em">Studies</span></h2>
-  <h3>Online Data Validation</h3>
-  <h4>Client: The Australian Mental Health Outcomes and Classification Network (AMHOCN)</h4>
-  <h4>Deliverable: Government-to-government data transmission tool</h4>
+  <div class="case-gallery">
+    {% include gallery.html variable-param=page.gallery %}
+  </div>
+  <h3>Industry Data Tool</h3>
+  <h4>Client: Outdoor Power Equipment Association</h4>
+  <h4>Deliverable: Sales Monitoring Tool</h4>
   <h5 class="margin-top-lg">Problem:</h5>
-  <p>Since 1992, the National Mental Health Strategy has encouraged the development of national outcome standards, as well as systems for assessing whether mental health services are meeting these standards. </p>
-  <p>Analysis of the large data sets collected from Australian states and territories revealed inconsistencies and errors. The AMHOCN had to undertake a long manual process, working with the various jurisdictions, to resolve these inconsistencies. </p>
-  <p>A new process of data validation was required to ensure this situation was not repeated.</p>
-  <h5>Solution:</h5>
-  <p>Online Data Validator</p>
-  <p>The Online Data Validator is an extensible, web-based application for determining the validity of large data sets. Its development grew out of our strategic advice during the AMHOCN project.</p>
-  <p>Strategic Data provided (and still provides) the data bureau service responsible for receiving and processing information. In the role of Data Bureau, Strategic Data remains responsible for providing a system and process to enable data receipting and validation to ensure National Outcome and Casemix Collection (NOCC) data security, accountability and quality, and provides a liaison service to the jurisdictions and the other AMHOCN components to resolve data integrity issues.</p>
-  <p>The project involves:</p>
+  <p>The Outdoor Power Equipment Association (OPEA) collected sales data from its contributing members via spreadsheet.  The data was then manually manipulated into report format and distributed to each member. The process was time-consuming and prone to errors.  OPEA required a secure automated online data collection tool to collect and report sales data across the industry.
+  The tool needed to be capable of:</p>
   <ul>
-    <li>Data dictionary and associated data set specification </li>
-    <li>Receipting, verification and storage of the project data sets </li>
-    <li>Development of the Web Accessible Data Cube, Reports Portal and Decision Support Tool </li>
-    <li>Technical expertise with regard to the AMHOCN data sources to the AMHOCN components </li>
-    <li>Technical support and infrastructure for the AMHOCN website </li>
+    <li>Secure collection of monthly data from subscribing companies by product category and sub groups.</li>
+    <li>Consolidation of collected data into a monthly contributor report showing current month sales, year to date sales totals, and 12-month average sales for each product category.</li>
+    <li>Generating a tailored industry report including a market summary overview to all subscribing companies enabling organisations to monitor their monthly performance against the industry as a whole.</li>
   </ul>
-  <p>Strategic Data was able to bring broad contextual understanding, looking beyond the immediate problem to ensure the new platform took into account future requirements. </p>
+  <h5>Solution:</h5>
+  <p>Strategic Data built a sales monitoring application that allows members to upload monthly sales figures, automatically ensuring the datafile conforms to the agreed specification. The application consolidates the member data in industry-wide summaries, and presents tailored reports back to the member. Messy existing data was merged and cleaned into the agreed format in order to prepare the system for subsequent time series comparison with later data. Contributing members are assured that the data they load is secure and confidential.</p>
   <h5>Results:</h5>
-  <p>The AMHOCN and Online Data Validator applications are not just data systems, but strategically designed applications that have weathered ten years of changes in government policy and direction. They are well-constructed, flexible applications that have been demonstrated to adapt to the department's evolving requirements. </p>
-  <p>The value of the Online Data Validator is that very large data sets – such as health records – can be efficiently and effectively examined for validity prior to acceptance. This reduces errors, lowers costs, and improves the accuracy and effectiveness of subsequent reporting and decision making. </p>
-  <p>The next level provides reports on data inconsistencies which the 'receiver' can review and work through with the 'submitter' – all through the validation tool so the decisions are recorded.<br />
-  Our partnership continues.</p>
+  <p>Strategic Data’s Industry Data Tool provides a secure and confidential platform for the submission and reporting of industry data. </p>
+  <p>The new system has been operating for 12 months. During that time there has been a substantial improvement in the degree of completion and data accuracy. The demands made of OPEA’s support staff have diminished as the system has automatically rejected non-compliant data while instantly providing specific feedback about what has caused it to fail. Over the months that the tool has been in place contributors have found it increasingly easy to resolve issues themselves. Strategic Data has provided any necessary helpdesk support, ensuring that OPEA support staff no longer has to be involved with the cycle of reviewing data, identifying errors, contacting contributors, explaining issues and re-combining the datasets. In addition, the instant feedback provided by the validation system significantly speeds up the process of ensuring errors are identified and addressed.</p>
   <p><a href="/about/">Strategic Data - our people and history <i class="fa fa-angle-right"></i></a></p>
   <p><a href="/contact/">Contact us <i class="fa fa-angle-right"></i></a></p>
 </div>
