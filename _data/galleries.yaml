@@ -26,7 +26,7 @@
     thumb: 8-thumb.jpg
     text: The eighth image
 
-- id: gallery2
+- id: opea-gallery
   imagefolder: /img/
   images:
   - name: OPEA-1.png
@@ -38,3 +38,13 @@
   - name: OPEA-3.png
     thumb: OPEA-3.png
     text: Help Screen
+
+- id: huni-gallery
+  imagefolder: /img/
+  images:
+  - name: huni-1.png
+    thumb: huni-1.png
+    text: Home Screen
+  - name: huni-2.png
+    thumb: huni-2.png
+    text: Search Screen
