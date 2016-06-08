@@ -1,30 +1,21 @@
-- id: gallery1
-  imagefolder: /img/blog/examplegallery
+- id: bugbash
+  imagefolder: /img/blog/bugbash
   images:
-  - name: 1.jpg
-    thumb: 1-thumb.jpg
-    text: The first image
-  - name: 2.jpg
-    thumb: 2-thumb.jpg
-    text: The second image
-  - name: 3.jpg
-    thumb: 3-thumb.jpg
-    text: The third image
-  - name: 4.jpg
-    thumb: 4-thumb.jpg
-    text: The forth image
-  - name: 5.jpg
-    thumb: 5-thumb.jpg
-    text: The fifth image
-  - name: 6.jpg
-    thumb: 6-thumb.jpg
-    text: The sixth image
-  - name: 7.jpg
-    thumb: 7-thumb.jpg
-    text: The seventh image
-  - name: 8.jpg
-    thumb: 8-thumb.jpg
-    text: The eighth image
+  - name: BugBashoutcome.jpg
+    thumb: BugBashoutcome.jpg
+    text: Bug post-it notes
+  - name: BugBashPrize.jpg
+    thumb: BugBashPrize.jpg
+    text: Prize for the day
+  - name: BugBashTeam.jpg
+    thumb: BugBashTeam.jpg
+    text: Testing team
+  - name: BugBashTreats.jpg
+    thumb: BugBashTreats.jpg
+    text: Themed treats
+  - name: BugBashTrello.png
+    thumb: BugBashTrello.png
+    text: Bugs moved online to Trello
 
 - id: opea-gallery
   imagefolder: /img/
