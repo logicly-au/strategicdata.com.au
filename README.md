@@ -31,7 +31,6 @@ description: Short description that will appear on the index page
 ```
 
 page-name: Will appear in the grey banner on the blog page
-page-subtitle:
 photo_url: everything after "/img/blog/"
 video_url: full url of a video
 quote:
