@@ -42,9 +42,12 @@
 - id: huni-gallery
   imagefolder: /img/
   images:
+  - name: huni.gif
+    thumb: huni.gif
+    text: Collection Graphics
   - name: huni-1.png
-    thumb: huni-1.png
+    thumb: huni-1-thumb.png
     text: Home Screen
   - name: huni-2.png
-    thumb: huni-2.png
+    thumb: huni-2-thumb.png
     text: Search Screen
