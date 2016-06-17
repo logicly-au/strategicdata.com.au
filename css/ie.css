@@ -538,11 +538,11 @@ blockquote {
 }
 
 .feature-box .fbox-icon i,
-.home_page .owl-carousel .owl-stage-outer .process-step .customNextBtn i {
+.customNextBtn i {
   display: none\9;
 }
 
-.home_page .owl-carousel .owl-stage-outer .process-step .customNextBtn {
+.customNextBtn {
   background-image: url("/img/icons/arrow.png")\9;
 }
 
