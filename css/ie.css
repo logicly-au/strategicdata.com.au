@@ -531,6 +531,26 @@ blockquote {
     transform: scale(ratio);
     opacity: 1; }
 
+/* Backup icons for <= IE8 */
+
+.fbox-icon.talk {
+  background-image: url("/img/icons/talk.png")\9;
+}
+
+.fbox-icon.lock {
+  background-image: url("/img/icons/lock.png")\9;
+}
+
+.fbox-icon.cogs {
+  background-image: url("/img/icons/cogs.png")\9;
+}
+
+.fbox-icon.bulb {
+  background-image: url("/img/icons/bulb.png")\9;
+}
+
+
+
 #footer {
   background-color: #CCCCCC;
   border-top: 2px solid #005480;
