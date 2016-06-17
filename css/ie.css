@@ -537,12 +537,21 @@ blockquote {
   background-image: url("/img/sd-poster.jpg")\9;
 }
 
-.feature-box .fbox-icon i {
+.feature-box .fbox-icon i,
+.home_page .owl-carousel .owl-stage-outer .process-step .customNextBtn i, {
   display: none\9;
+}
+
+.home_page .owl-carousel .owl-stage-outer .process-step .customNextBtn {
+  background-image: url("/img/icons/arrow.png")\9;
 }
 
 .fbox-icon.talk {
   background-image: url("/img/icons/talk.png")\9;
+}
+
+.fbox-icon.question {
+  background-image: url("/img/icons/question.png")\9;
 }
 
 .fbox-icon.lock {
