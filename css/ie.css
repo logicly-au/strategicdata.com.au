@@ -533,6 +533,14 @@ blockquote {
 
 /* Backup icons for <= IE8 */
 
+.home_page #home-video {
+  background-image: url("/img/sd-poster.jpg")\9;
+}
+
+.feature-box .fbox-icon i {
+  display: none\9;
+}
+
 .fbox-icon.talk {
   background-image: url("/img/icons/talk.png")\9;
 }
