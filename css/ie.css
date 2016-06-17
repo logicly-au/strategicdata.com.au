@@ -545,8 +545,18 @@ blockquote {
   display: none\9;
 }
 
+.primary-menu-trigger i {
+  display: none\9;
+}
+
+.primary-menu-trigger {
+  background-image: url("/img/icons/hamburger.png")\9;
+}
+
 .customNextBtn {
   background-image: url("/img/icons/arrow.png")\9;
+  height: 50px\9;
+  width: 50px\9;
 }
 
 .fbox-icon.talk {
@@ -554,7 +564,7 @@ blockquote {
 }
 
 .fbox-icon.question {
-  background-image: url("/img/icons/question.png")\9;
+  background-image: url("/img/icons/questionmark.png")\9;
 }
 
 .fbox-icon.lock {
