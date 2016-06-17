@@ -538,7 +538,7 @@ blockquote {
 }
 
 .feature-box .fbox-icon i,
-.home_page .owl-carousel .owl-stage-outer .process-step .customNextBtn i, {
+.home_page .owl-carousel .owl-stage-outer .process-step .customNextBtn i {
   display: none\9;
 }
 
@@ -566,7 +566,18 @@ blockquote {
   background-image: url("/img/icons/bulb.png")\9;
 }
 
-
+.fbox-icon.phone{
+  background-image: url("/img/icons/phone.png")\9;
+}
+.fbox-icon.send {
+  background-image: url("/img/icons/send.png")\9;
+}
+.fbox-icon.envelope {
+  background-image: url("/img/icons/envelope.png")\9;
+}
+.fbox-icon.home {
+  background-image: url("/img/icons/home.png")\9;
+}
 
 #footer {
   background-color: #CCCCCC;
