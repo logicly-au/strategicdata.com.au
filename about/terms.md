@@ -1,8 +1,7 @@
 ---
 title: Terms - Strategic Data
 page-name: terms
-layout: sidebar
-sidebar: about
+layout: full
 ---
 ### Terms and conditions
 
