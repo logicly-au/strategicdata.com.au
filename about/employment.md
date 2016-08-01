@@ -25,7 +25,7 @@ The following positions have already been filled. Please don’t apply.
 
 $44k - $52k + super + end-of-year bonus
 
-##### Senior systems admin (full time)</h5>
+##### Senior systems admin (full time)
 
 * Debian Linux / OSS
 * Small, friendly, relaxed working environment
