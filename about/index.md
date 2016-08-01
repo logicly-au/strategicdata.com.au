@@ -10,7 +10,8 @@ width="900" height="400" alt="Strategic Data, Melbourne, Fitzroy">
 
 Founded in 1996, Strategic Data has always prided itself on the intelligent
 application of information technology. We have a long history of working with
-state-of-the-art data and web technologies, often with an open source focus.
+state-of-the-art data and web technologies, often with an open source focus
+but always with an awareness that these technologies are used by people.
 
 In our early days our data-focussed services encompassed data entry,
 scanning, analysis, reporting, and bulk data processing. We have evolved along
