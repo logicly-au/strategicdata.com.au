@@ -26,7 +26,7 @@ systems administration, programming, analysis, front-end design, survey design,
 and applied psychology. Our developers all work in-house as part of a team of
 more than 20 staff in our Fitzroy office. We are large enough to manage
 complex projects and provide consistent service delivery yet small enough to
-adapt and move quickly on changing project requirements.</p>
+adapt and move quickly on changing project requirements.
 
 Over the years, we have identified new areas of client requirements and
 developed services to meet those needs. These services on occasion have evolved
@@ -64,7 +64,7 @@ Full service online survey solution. A great way to collect and process
 data quickly and conveniently. Mobile-friendly, secure and robust managed
 solutions with real-time feedback. The delivery model is completely service
 driven so there is no need to learn an application or host software. The survey
-branding can provide a transparent experience for respondents. </p> <p> For
+branding can provide a transparent experience for respondents. For
 more information, visit the website at <a href="http://www.websurvey.com.au/"
 title="Web Survey" target="_blank">websurvey.com.au</a>
 
