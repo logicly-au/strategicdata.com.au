@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-{% assign s = 'sidebar-' + page.sidebar + '.html' %}
-{% include sidebar-{{page.sidebar}}.html param="security" %}
+{% include sidebar-{{page.sidebar}}.html %}
 <div class="col-md-9">
-  {{ content | markdownify }}
+  {{ content }}
 </div>
