@@ -12,8 +12,12 @@ sidebar: cases
 
 ##### Problem:
 
-  The Australian Government required a comprehensive report to be prepared for print (200 pages) and web publishing. It entailed integrating dozens of data sources, preparing 150 or so charts and commenting on them.<br>
-  Data – particularly that presented in charts – was constantly revised during the preparation of the report, so it was important to be able to update them efficiently.
+  The Australian Government required a comprehensive report to be prepared for
+  print (200 pages) and web publishing. It entailed integrating dozens of data
+  sources, preparing 150 or so charts and commenting on them.<br> Data –
+  particularly that presented in charts – was constantly revised during the
+  preparation of the report, so it was important to be able to update them
+  efficiently.
 
 
 Both web and print documents needed to be kept in sync.
