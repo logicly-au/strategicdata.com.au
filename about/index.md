@@ -17,7 +17,7 @@ In our early days our data-focussed services encompassed data entry,
 scanning, analysis, reporting, and bulk data processing. We have evolved along
 with the evolution of technology and changing customer requirements and
 nowadays we specialise in the delivery of data driven web solutions with a
-strong focus on usability and accessability. We consult with clients to
+strong focus on usability and accessibility. We consult with clients to
 identify data issues, scope solutions and deliver achievable roadmaps that
 position for future data opportunities and growth. We host, support, maintain
 and adapt the systems we develop.

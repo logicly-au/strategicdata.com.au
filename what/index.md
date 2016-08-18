@@ -16,8 +16,7 @@ Our approach to strategic planning has two stages:
 
 #### 1. Define the problem
 
-Accurately identifying your data issues is the first vital step in any change
-or improvement project.
+Accurately identifying your data requirements is the first vital step in any change or improvement project.
 
 *Development projects:* We partner with you to gain a comprehensive
 understanding of your issues, and determine a solution approach that best fits
@@ -40,10 +39,10 @@ lead the 3-stage project implementation process.
 
 #### 1.	Build phase
 
-From rapid application development to *<span style="color:#900">something else
-impressive</span>*, our technical team builds solutions that work. We manage
-project implementation and liaise regularly with your business and technical
-staff to make sure we're on track for the whole ride.
+We utilise agile and iterative development processes to ensure that our
+technical team builds solutions that work. We manage project implementation and
+liaise regularly with your business and technical staff to make sure we're on
+track for the whole ride.
 
 #### 2.	Hosting
 
