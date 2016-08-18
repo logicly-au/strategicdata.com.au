@@ -30,8 +30,8 @@ gulp.task('styles', function() {
     .pipe(autoprefixer())
     .pipe(gulp.dest(dstCss))
     .pipe(cssnano())
-    .pipe(sourcemaps.write('.'))
     .pipe(rename({suffix: '.min'}))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(dstCss))
 });
 
@@ -43,8 +43,8 @@ gulp.task('scripts', function() {
     .pipe(concat('sd-main.js'))
     .pipe(gulp.dest(dstJs))
     .pipe(uglify())
-    .pipe(sourcemaps.write('.'))
     .pipe(rename({suffix: '.min'}))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(dstJs))
 });
 
