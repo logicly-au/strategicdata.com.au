@@ -1,5 +1,5 @@
 {% for gallery in site.data.galleries %}
-  {% if gallery.id == include.variable-param %}
+  {% if gallery.id == page.gallery %}
   <div class="entry-image">
     <ul class="gallery">
     {% for image in gallery.images %}
