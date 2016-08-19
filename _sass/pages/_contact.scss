@@ -1,15 +1,13 @@
 .contact-page {
-  .col_one_fourth {
+  .col_one_half {
     display: block;
     position: relative;
     float: left;
     margin: 30px 0;
     padding: 0 10px;
-    @include large {
-      width: 23%;
-    }
+    width: 45%;
     @include responsive {
-      width: 45%;
+      width: 100%;
     }
     @include mobile {
       width: 100%;
