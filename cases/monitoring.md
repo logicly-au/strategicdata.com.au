@@ -36,7 +36,7 @@ ATAPS.
 ##### Solution:
 
 In 2003, Strategic Data designed and implemented the Minimum Dataset – a
-database that captures de-identified, consumer-lever information. The database
+database that captures de-identified, consumer-level information. The database
 is supported by a web interface, allowing Divisions of General Practice to
 directly input or upload data collected by their referrers and mental-health
 professionals.
