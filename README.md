@@ -61,3 +61,5 @@ Then add the id from the yaml to the top part of your blog post like you would a
 ```
 gallery: id of your gallery here
 ```
+
+### Travis CI
