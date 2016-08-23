@@ -1,10 +1,11 @@
 language: ruby
+cache:
+  - bundler
+  - pip
 rvm:
   - 2.1
 jdk:
   - oraclejdk8
-before_install:
-  - sudo apt-get update
 before_script:
   - pip install --user html5validator
 script: ./script/cibuild
