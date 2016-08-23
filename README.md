@@ -1,3 +1,7 @@
+## TravisCI status
+
+[![Build Status](https://travis-ci.org/strategicdata/strategicdata.com.au.svg?branch=master)](https://travis-ci.org/strategicdata/strategicdata.com.au)
+
 Based on http://themes.semicolonweb.com/html/canvas/index-corporate-2.php
 
 ## How To Add a new Blog Post
@@ -61,3 +65,5 @@ Then add the id from the yaml to the top part of your blog post like you would a
 ```
 gallery: id of your gallery here
 ```
+
+### Travis CI
