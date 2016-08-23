@@ -1,12 +1,12 @@
 language: ruby
 rvm:
-- 2.1
+  - 2.1
+jdk:
+  - oraclejdk8
 before_install:
-- sudo apt-get update
-- sudo apt-get install oracle-java8-installer
-- sudo update-java-alternatives -s java-8-oracle
+  - sudo apt-get update
 before_script:
-- pip install --user html5validator
+  - pip install --user html5validator
 script: ./script/cibuild
 branches:
   only:
