@@ -6,4 +6,7 @@ chmod 600 .travis/deploy-key
 ssh-add .travis/deploy-key
 git config --global push.default simple
 git remote add gh-pages git@github.com:strategicdata/strategicdata.com.au.git
-git push gh-pages HEAD:gh-pages
+git checkout gh-pages
+git pull
+git merge master -m "Travic CI deployment"
+git push
