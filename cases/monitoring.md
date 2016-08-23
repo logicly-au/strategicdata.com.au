@@ -14,7 +14,7 @@ sidebar: cases
 
 Access to Allied Psychological Services (ATAPS) is an initiative funded by the
 Department of Health. ATAPS allows GPs to refer hard-to-reach people with
-mild-to-moderate mental disorders to a mental health professional.<br>
+mild-to-moderate mental disorders to a mental health professional.
 Operating since 2001, the program is coordinated and managed by over 100
 Divisions of General Practice and – since 2012 – by 61 Medicare Locals.
 
