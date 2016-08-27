@@ -1,8 +1,6 @@
 .bundle
 Gemfile.lock
 node_modules/
-_site/
-_site/version
 .sass-cache/
 .travis/deploy-key
 css/sd-main.css
