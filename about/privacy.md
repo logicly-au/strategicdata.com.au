@@ -31,7 +31,7 @@ We respect your privacy by:
     information, where appropriate.
   * Collecting, using and retaining only personal information that is
     relevant and useful to our business interactions and the projects we
-    undertaken for our clients.
+    undertake for our clients.
   * Using reasonable efforts to keep personal information accurate and
     up-to-date.
   * Limiting access to and disclosure of personal information.
