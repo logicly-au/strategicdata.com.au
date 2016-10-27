@@ -67,7 +67,8 @@ information to our client is an inherent (and notified) part of a project or
 with your consent.
 
 If you would like more information about Strategic Data's privacy practices,
-please contact us by emailing us at <a href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a> or by
+please contact us by emailing us at <a 
+href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a> or by
 writing to us at:
 
 Strategic Data<br/>PO Box 1166<br/>Carlton VIC 3053<br/>Australia
