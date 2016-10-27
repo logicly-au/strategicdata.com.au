@@ -67,8 +67,7 @@ information to our client is an inherent (and notified) part of a project or
 with your consent.
 
 If you would like more information about Strategic Data's privacy practices,
-please contact us by emailing us at <a
-href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a> or by
+please contact us by emailing us at <a href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a> or by
 writing to us at:
 
 Strategic Data<br/>PO Box 1166<br/>Carlton VIC 3053<br/>Australia
@@ -100,6 +99,19 @@ You may choose to decline cookies if your browser permits, but doing so may
 affect your use of this Web site and your ability to access or use certain
 Web site features.
 
+#### Google AdWords Remarketing
+
+Strategic Data uses remarketing to advertise online.
+
+Third-party vendors, including Google, show our ads on sites across the internet.
+
+Third-party vendors, including Google, use cookies to serve ads based on your past visits to this website. 
+
+Visitors can opt out of Google's use of cookies by visiting the <a href="https://www.google.com/ads/preferences/">Ads Preference Manager</a> or 
+visitors can opt out of a third-party vendor's use of cookies by visiting <a href="http://www.networkadvertising.org/managing/opt_out.asp">Network
+Advertising Initiative opt-out page</a>.	
+	
+	
 #### Other matters
 
 Security - Strategic Data works to keep our servers, applications and
