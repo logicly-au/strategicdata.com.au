@@ -17,4 +17,4 @@ git add -A
 git diff --quiet --exit-code --cached || git commit -m 'Add build artefacts'
 
 git remote add production git@github.com:strategicdata/strategicdata.com.au.git
-git push production HEAD:production
+git push production HEAD:production --force
