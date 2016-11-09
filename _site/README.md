@@ -66,4 +66,8 @@ Then add the id from the yaml to the top part of your blog post like you would a
 gallery: id of your gallery here
 ```
 
-### Travis CI
+### Hosting files for download
+
+Put files in the download folder in the root directory of the site. Jekyll will automatically move them into the download folder in the _site directory when it builds.
+
+When putting it on a page use the following format: For more information [link text]({{ site.url }}/download/example.pdf).
