@@ -4,7 +4,7 @@ page-name: case studies
 layout: sidebar
 sidebar: cases
 ---
-### Performance management system creation
+### Development of performance management system
 
 #### Client: National Australia Bank (NAB)
 
