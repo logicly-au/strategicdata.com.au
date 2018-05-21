@@ -11,10 +11,12 @@ openssl aes-256-cbc \
 eval "$(ssh-agent -s)" #start the ssh agent
 chmod 600 .travis/deploy-key
 ssh-add .travis/deploy-key
-git config --global push.default simple
 
-git add -A
-git diff --quiet --exit-code --cached || git commit -m 'Add build artefacts'
-
-git remote add production git@github.com:strategicdata/strategicdata.com.au.git
-git push production HEAD:production --force
+# Edit .gitignore to publish
+perl -n -i -e "print unless /^_site\/$/" ./.gitignore
+git add .
+git commit -m "Commit build artefacts for publishing"
+git remote add pages git@github.com:strategicdata/strategicdata.com.au.git
+git push pages `git subtree split --prefix _site 2> /dev/null`:gh-pages --force
+git reset HEAD~
+git checkout .gitignore
