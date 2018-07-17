@@ -25,8 +25,13 @@ Our clients include:
 <br>
 Call us on +61 3 9340 9000 or email <a href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a> to find out more about our services.
 
+<div class="feature col-sm-12 col-md-3" style="margin:10px;">
 Data Collection <br>
-<a href="http://www.websurvey.com.au/">WebSurvey</a>
+<a href="http://www.websurvey.com.au/" class="btn btn-md btn-primary" style="margin-top:5px;">WebSurvey</a>
+</div>
 
-Data Management <br>
-<a href="https://strategicdata.com.au/">Strategic Data</a>
+<div class="feature col-sm-12 col-md-3" style="margin:7px;">
+Data Management
+<br>
+<a href="https://strategicdata.com.au/" class="btn btn-md btn-primary" style="margin-top:5px;">Strategic Data</a>
+</div>
