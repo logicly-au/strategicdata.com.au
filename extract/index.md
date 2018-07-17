@@ -30,7 +30,7 @@ Data Collection <br>
 <a href="http://www.websurvey.com.au/" class="btn btn-md btn-primary" style="margin-top:5px;">WebSurvey</a>
 </div>
 
-<div class="feature col-sm-12 col-md-3" style="margin:7px;">
+<div class="feature col-sm-12 col-md-3" style="margin:10px;">
 Data Management
 <br>
 <a href="https://strategicdata.com.au/" class="btn btn-md btn-primary" style="margin-top:5px;">Strategic Data</a>
