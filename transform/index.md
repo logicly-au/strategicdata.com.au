@@ -7,7 +7,7 @@ layout: full
 
 
 <img src="/img/Diagram_SD_website_vertical.png" class="img-responsive pull-right"
-width="195px" alt="Diagram Strategic Data" style="margin-top:20px; margin-right:70px; margin-left:40px; padding:30px; border:0.5px solid #E5E5E5; background-color:#F5F5F5;">
+width="195" alt="Diagram Strategic Data" style="margin:20px 70px 30px 40px; padding:30px; border:0.5px solid #E5E5E5; background-color:#F5F5F5;">
 
 ### Extract. Transform. Load.
 
@@ -38,7 +38,7 @@ Data Collection <br>
 <a href="http://www.websurvey.com.au/" class="btn btn-md btn-primary" style="margin-top:5px; background-color:#98002e;">WebSurvey</a>
 </div>
 
-<div class="feature col-sm-12 col-md-3" style="margin-top:10px; margin-left:-15px; margin-bottom:25px;">
+<div class="feature col-sm-12 col-md-3" style="margin-top:10px; margin-left:-15px;">
 Data Management
 <br>
 <a href="https://strategicdata.com.au/" class="btn btn-md btn-primary" style="margin-top:5px;">Strategic Data</a>
