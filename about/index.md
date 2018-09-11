@@ -40,7 +40,7 @@ founded “IT Strategic” and “Websurvey”.
   <a href="http://itstrategic.com.au/" title="IT Strategic" target="_blank">
     <img src="/img/ITS_Logo.png" width="200" height="45" alt="IT Strategic">
   </a>
-  <span class="slogan">total IT support for small to medium organisations</span>
+  <span class="slogan">total IT support</span>
 </div>
 
 A Melbourne based IT support and managed services partner delivering expert
