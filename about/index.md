@@ -38,7 +38,7 @@ founded “IT Strategic” and “Websurvey”.
 
 <div class="partner-brand">
   <a href="http://itstrategic.com.au/" title="IT Strategic" target="_blank">
-    <img src="ITS_Logo.png" width="200" height="45" alt="IT Strategic">
+    <img src="/img/ITS_Logo.png" width="200" height="45" alt="IT Strategic">
   </a>
   <span class="slogan">total IT support for small to medium organisations</span>
 </div>
