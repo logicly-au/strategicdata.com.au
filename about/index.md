@@ -38,7 +38,7 @@ founded “IT Strategic” and “Websurvey”.
 
 <div class="partner-brand">
   <a href="http://itstrategic.com.au/" title="IT Strategic" target="_blank">
-    <img src="/img/itstrategic_logo.gif" width="200" height="45" alt="IT Strategic">
+    <img src="ITS_Logo.png" width="200" height="45" alt="IT Strategic">
   </a>
   <span class="slogan">total IT support for small to medium organisations</span>
 </div>
@@ -68,4 +68,3 @@ driven so there is no need to learn an application or host software. The survey
 branding can provide a transparent experience for respondents. For
 more information, visit the website at <a href="http://www.websurvey.com.au/"
 title="Web Survey" target="_blank">websurvey.com.au</a>
-
