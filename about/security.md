@@ -5,57 +5,20 @@ layout: sidebar
 sidebar: about
 ---
 
-### Security, privacy and data protection
+### Our Security
 
-Strategic Data has a long history of dealing with highly confidential
-data and maintaining it in a manner to ensure confidentiality is not
-compromised.
+Strategic Data takes information security seriously.
 
-#### Secure policy and procedures
+We have been continuously evolving our security capabilities over many years; to ensure the safety of the information assets in our possession we undertake a continuous, systematic approach to risk analysis and security control implementation.
 
-Strategic Data has implemented and maintains policy and procedure
-consistent with certification at the PROTECTED level of the Australian
-Signals Directorate (ASD) Australian Government Information Security Manual
-(ISM).
+Strategic Data has a dedicated Information Security Officer who, along with our Systems Administration and DevOps team, ensures that information security remains top of mind across all aspects of our business. Through rigorous monitoring, SIEM systems, audits, penetration testing, policies, procedures, encryption and range of security initiatives Strategic Data ensure that your data remains safe.
 
-#### Secure hosting
+We invest significant resources to ensure our systems are secure and robust. We routinely assess risks and utilise specialist advisors to help with these assessments, as well as devising means to mitigate the risks. We use an array of security tools that protect and monitor threats 24/7. Members of the team are also continually keeping our servers up to date with security patches and operating system updates.
 
-Strategic Data's PROTECTED network comprises a secure server room in the
-Fitzroy premises connected via a VPN tunnel to an additional server area in a
-commercial processing centre in South Melbourne (Datacom). At all times this is
-guarded with video-monitored access to server areas, manned access control,
-server monitoring, and redundant Internet connectivity and power supply.
+We have a long history of working with highly sensitive information. We are familiar with the Australian Signals Directorate Information Security Manual and understand how to apply the principles of security to projects of varying risk levels. Activities we have undertaken for specific projects include:
 
-#### Physical security
-
-Our office is equipped with fingerprint activated access control and an alarm
-system that is monitored at all times. We also have secure storage capacity
-that is locked with an isolated alarm zone and video-monitored access for
-physical documents.
-
-#### Office electronic security
-
-Our office IT infrastructure is set up with dedicated and redundant
-ASD-approved firewalls, individual username/password access to files, a network
-of computers monitored by our IT Infrastructure team and the capacity to use
-secure certificates for encrypted transmission of data.
-
-#### Handling of confidential data
-
-Most of Strategic Data's employees have a long-standing relationship with
-the company, and all have signed confidentiality agreements and undergone AFP
-police checks. Our three directors have managed highly sensitive data for many
-years. Staff members with access to PROTECTED classified data undergo vetting
-by the <a href="http://www.defence.gov.au/agsva/">Australian Government
-Security Vetting Agency</a>.
-
-#### Redundancy
-
-The application stack is hosted on redundant hardware within a dedicated
-data centre (Datacom) providing redundant power, cooling, and networking.
-
-#### Disaster Recovery
-
-Strategic Data maintains a disaster recovery (DR) plan with a staged
-response depending on the severity and duration of the incident.
-
+* Vulnerability scanning and penetration testing of the system by external consultants
+* Testing against the OWASP Top 10
+* Assessment against the Essential Eight
+* Information Security Registered Assessors Program (IRAP) assessment
+* Development of project-specific security documentation such as a Security Risk Management Plan, Incident Response Plan, Statement of Applicability and Compliance Audits
